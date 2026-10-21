@@ -376,9 +376,10 @@ def _crop_panorama(
     crop_h = crop_w
 
     left = center_x - crop_w // 2
-    right = center_x + crop_w // 2
-    top = max(0, center_y - crop_h // 2)
-    bottom = min(h, center_y + crop_h // 2)
+    right = left + crop_w
+    raw_top = center_y - crop_h // 2
+    top = max(0, raw_top)
+    bottom = min(h, raw_top + crop_h)
 
     if left < 0 or right > w:
         if left < 0:
