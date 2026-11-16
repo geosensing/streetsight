@@ -1,0 +1,18 @@
+location_id,lat,lon,city,segment_id,osm_name,osm_type,length_m,has_coverage,capture_date,collection_day,stop_order,step_distance_m,time_window
+hcmc_00162,10.73040015,106.71803735,Ho Chi Minh City,193195,Thung Lũng Xanh,residential,15.26,True,2020-05,7,1,0.0,15:30-18:30
+hcmc_00566,10.7284675,106.7152901,Ho Chi Minh City,193160,Nguyễn Văn Linh,primary,15.44,True,2019-03,7,2,369.1,15:30-18:30
+hcmc_01017,10.7283391,106.7086091,Ho Chi Minh City,193155,,secondary,13.21,True,2020-04,7,3,730.0,15:30-18:30
+hcmc_02054,10.7267731,106.7033202,Ho Chi Minh City,146270,Nguyễn Phan Chánh,residential,86.97,True,2026-04,7,4,603.5,15:30-18:30
+hcmc_01764,10.72782855,106.7006263,Ho Chi Minh City,218497,Nguyễn Hữu Thọ,primary,12.31,True,2014-08,7,5,316.8,15:30-18:30
+hcmc_01717,10.7236999,106.72051145,Ho Chi Minh City,15749,Đường Trần Văn Trà,secondary,9.67,True,2024-09,7,6,2220.5,15:30-18:30
+hcmc_01252,10.72390165,106.7286301,Ho Chi Minh City,197708,Đường Số 16,residential,69.9,True,2018-12,7,7,887.3,15:30-18:30
+hcmc_01836,10.7049521,106.73575315,Ho Chi Minh City,142648,Phạm Hữu Lầu,secondary,31.8,True,2019-03,7,8,2246.2,15:30-18:30
+hcmc_00891,10.70048035,106.7398571,Ho Chi Minh City,143002,,residential,13.4,True,2020-06,7,9,669.6,15:30-18:30
+hcmc_01770,10.69567615,106.7425165,Ho Chi Minh City,182409,,residential,0.89,True,2026-03,7,10,608.1,15:30-18:30
+hcmc_02332,10.69349315,106.73442675,Ho Chi Minh City,46447,,residential,33.25,False,,7,11,916.6,15:30-18:30
+hcmc_02056,10.6819415,106.7310526,Ho Chi Minh City,189963,Đường số 9,residential,3.42,True,2026-04,7,12,1336.3,15:30-18:30
+hcmc_01528,10.6854379,106.7094259,Ho Chi Minh City,30449,Hẻm 15,residential,8.17,False,,7,13,2394.9,15:30-18:30
+hcmc_02429,10.6814563,106.70536955,Ho Chi Minh City,64584,,residential,55.92,False,,7,14,626.5,15:30-18:30
+hcmc_01789,10.694936,106.68433405,Ho Chi Minh City,227474,,residential,29.11,True,2024-09,7,15,2744.0,15:30-18:30
+hcmc_01571,10.70106795,106.6866902,Ho Chi Minh City,30645,Đào Sư Tích,tertiary,13.25,True,2019-03,7,16,728.8,15:30-18:30
+hcmc_00303,10.68668915,106.68009465,Ho Chi Minh City,45565,,residential,2.5,True,2021-01,7,17,1753.8,15:30-18:30

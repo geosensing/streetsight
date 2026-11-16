@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Create Label Studio tasks JSON from downloaded Street View images."""
 
 import json
@@ -16,10 +15,10 @@ def main():
     merged = downloads.merge(
         samples[["location_id", "segment_id", "osm_name", "osm_type"]],
         on="location_id",
-        how="left"
+        how="left",
     )
 
-    successful = merged[merged["success"] == True]
+    successful = merged[merged["success"].eq(True)]
 
     tasks = []
     for _, row in successful.iterrows():
@@ -38,7 +37,7 @@ def main():
                 "pitch": int(row["pitch"]),
                 "segment_id": int(segment_id) if pd.notna(segment_id) else None,
                 "osm_name": osm_name if pd.notna(osm_name) else "",
-                "osm_type": osm_type if pd.notna(osm_type) else ""
+                "osm_type": osm_type if pd.notna(osm_type) else "",
             }
         }
         tasks.append(task)
@@ -51,7 +50,7 @@ def main():
     print(f"Output: {output_path}")
 
     cities = pd.DataFrame([t["data"] for t in tasks]).groupby("city").size()
-    print(f"\nTasks by city:")
+    print("\nTasks by city:")
     for city, count in cities.items():
         print(f"  {city}: {count}")
 

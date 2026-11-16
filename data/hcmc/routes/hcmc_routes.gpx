@@ -1,0 +1,1563 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gpx version="1.1" creator="streetsight" xmlns="http://www.topografix.com/GPX/1/1">
+  <wpt lat="10.817711" lon="106.605787">
+    <name>D01-01 hcmc_00762</name>
+    <desc>residential | Hẻm 135/37 Phạm Đăng Giảng</desc>
+  </wpt>
+  <wpt lat="10.810076" lon="106.610129">
+    <name>D01-02 hcmc_01851</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.806216" lon="106.608052">
+    <name>D01-03 hcmc_00314</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.804300" lon="106.607711">
+    <name>D01-04 hcmc_00679</name>
+    <desc>residential | Hẻm 557 Hương lộ 3</desc>
+  </wpt>
+  <wpt lat="10.799000" lon="106.608430">
+    <name>D01-05 hcmc_01721</name>
+    <desc>residential | Hẻm 131 Hai Mươi Sáu Tháng Ba</desc>
+  </wpt>
+  <wpt lat="10.799092" lon="106.618471">
+    <name>D01-06 hcmc_02258</name>
+    <desc>secondary | Tân Kỳ Tân Quý</desc>
+  </wpt>
+  <wpt lat="10.807216" lon="106.621710">
+    <name>D01-07 hcmc_00087</name>
+    <desc>tertiary | Tân Thắng</desc>
+  </wpt>
+  <wpt lat="10.810572" lon="106.620250">
+    <name>D01-08 hcmc_01798</name>
+    <desc>tertiary | Tây Thạnh</desc>
+  </wpt>
+  <wpt lat="10.811276" lon="106.623877">
+    <name>D01-09 hcmc_00379</name>
+    <desc>residential | Hẻm 229 Tây Thạnh</desc>
+  </wpt>
+  <wpt lat="10.795550" lon="106.638254">
+    <name>D01-10 hcmc_00639</name>
+    <desc>secondary | Lũy Bán Bích</desc>
+  </wpt>
+  <wpt lat="10.795293" lon="106.648385">
+    <name>D01-11 hcmc_01162</name>
+    <desc>residential | Trần Mai Ninh</desc>
+  </wpt>
+  <wpt lat="10.781297" lon="106.631690">
+    <name>D01-12 hcmc_00007</name>
+    <desc>tertiary | Nguyễn Sơn</desc>
+  </wpt>
+  <wpt lat="10.770693" lon="106.635748">
+    <name>D01-13 hcmc_01300</name>
+    <desc>tertiary | Đường Kênh Tân Hóa</desc>
+  </wpt>
+  <wpt lat="10.770906" lon="106.624976">
+    <name>D01-14 hcmc_00299</name>
+    <desc>residential | Hẻm 237/32 Hòa Bình</desc>
+  </wpt>
+  <wpt lat="10.767730" lon="106.621036">
+    <name>D01-15 hcmc_02238</name>
+    <desc>residential | Hẻm 46 Liên khu 10-11</desc>
+  </wpt>
+  <wpt lat="10.765733" lon="106.619872">
+    <name>D01-16 hcmc_01688</name>
+    <desc>residential | Hẻm 137 Phan Anh</desc>
+  </wpt>
+  <wpt lat="10.760976" lon="106.619364">
+    <name>D01-17 hcmc_02407</name>
+    <desc>residential | Hẻm 68 Chiến Lược</desc>
+  </wpt>
+  <wpt lat="10.754623" lon="106.618246">
+    <name>D01-18 hcmc_00710</name>
+    <desc>residential | Đường số 21B</desc>
+  </wpt>
+  <wpt lat="10.764592" lon="106.607975">
+    <name>D01-19 hcmc_01651</name>
+    <desc>residential | Hẻm 338/160 Chiến Lược</desc>
+  </wpt>
+  <wpt lat="10.758934" lon="106.603452">
+    <name>D01-20 hcmc_00999</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.753361" lon="106.599607">
+    <name>D01-21 hcmc_02035</name>
+    <desc>residential | Đường số 46</desc>
+  </wpt>
+  <wpt lat="10.751775" lon="106.596122">
+    <name>D01-22 hcmc_02286</name>
+    <desc>residential | Đường 53C</desc>
+  </wpt>
+  <wpt lat="10.759175" lon="106.594513">
+    <name>D01-23 hcmc_01023</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.760614" lon="106.588340">
+    <name>D01-24 hcmc_00777</name>
+    <desc>residential | Hẻm 85 Hồ Văn Long</desc>
+  </wpt>
+  <wpt lat="10.763155" lon="106.579284">
+    <name>D01-25 hcmc_01036</name>
+    <desc>tertiary | Hồ Văn Long</desc>
+  </wpt>
+  <wpt lat="10.778362" lon="106.597282">
+    <name>D01-26 hcmc_01455</name>
+    <desc>residential | Hẻm 51/13 Đường 18B</desc>
+  </wpt>
+  <wpt lat="10.780689" lon="106.601634">
+    <name>D01-27 hcmc_01825</name>
+    <desc>residential | Liên khu 2-10</desc>
+  </wpt>
+  <wpt lat="10.781264" lon="106.606776">
+    <name>D01-28 hcmc_00941</name>
+    <desc>residential | Đường số 16</desc>
+  </wpt>
+  <wpt lat="10.789019" lon="106.609028">
+    <name>D01-29 hcmc_01386</name>
+    <desc>tertiary | Kênh Nước Đen</desc>
+  </wpt>
+  <wpt lat="10.789071" lon="106.609877">
+    <name>D01-30 hcmc_01623</name>
+    <desc>residential | Đường số 19</desc>
+  </wpt>
+  <wpt lat="10.788828" lon="106.614936">
+    <name>D01-31 hcmc_01345</name>
+    <desc>residential | Đường Số 9A</desc>
+  </wpt>
+  <wpt lat="10.786619" lon="106.597106">
+    <name>D01-32 hcmc_01212</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.788963" lon="106.596485">
+    <name>D01-33 hcmc_00486</name>
+    <desc>residential | Tân Kỳ Tân Quý</desc>
+  </wpt>
+  <wpt lat="10.789450" lon="106.596244">
+    <name>D01-34 hcmc_01377</name>
+    <desc>secondary | Cầu Tân Kỳ Tân Quý</desc>
+  </wpt>
+  <wpt lat="10.790506" lon="106.593681">
+    <name>D01-35 hcmc_01951</name>
+    <desc>residential | Hẻm 73 Đường Số 10</desc>
+  </wpt>
+  <wpt lat="10.796008" lon="106.591660">
+    <name>D01-36 hcmc_00782</name>
+    <desc>residential | Hẻm 53/127 Đường Số 4</desc>
+  </wpt>
+  <wpt lat="10.790388" lon="106.585489">
+    <name>D01-37 hcmc_00157</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.807710" lon="106.590464">
+    <name>D01-38 hcmc_02314</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.808822" lon="106.588222">
+    <name>D01-39 hcmc_01931</name>
+    <desc>residential | Hẻm 245 Bình Thành</desc>
+  </wpt>
+  <wpt lat="10.813770" lon="106.592623">
+    <name>D01-40 hcmc_00094</name>
+    <desc>residential | Đường số 16</desc>
+  </wpt>
+  <wpt lat="10.876418" lon="106.605998">
+    <name>D02-01 hcmc_00871</name>
+    <desc>residential | Đường 04 Ấp Mới 1</desc>
+  </wpt>
+  <wpt lat="10.870055" lon="106.604223">
+    <name>D02-02 hcmc_00297</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.869388" lon="106.604754">
+    <name>D02-03 hcmc_02022</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.868856" lon="106.604456">
+    <name>D02-04 hcmc_01167</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.869342" lon="106.607567">
+    <name>D02-05 hcmc_01797</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.875198" lon="106.614956">
+    <name>D02-06 hcmc_01785</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.875664" lon="106.627960">
+    <name>D02-07 hcmc_01761</name>
+    <desc>residential | Đường D1 (Hoa Phượng)</desc>
+  </wpt>
+  <wpt lat="10.859409" lon="106.625100">
+    <name>D02-08 hcmc_00834</name>
+    <desc>residential | Tân Chánh Hiệp 34</desc>
+  </wpt>
+  <wpt lat="10.859174" lon="106.625848">
+    <name>D02-09 hcmc_02101</name>
+    <desc>residential | Tân Chánh Hiệp 34</desc>
+  </wpt>
+  <wpt lat="10.856408" lon="106.625579">
+    <name>D02-10 hcmc_02146</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.854907" lon="106.624632">
+    <name>D02-11 hcmc_00629</name>
+    <desc>primary | Đường Tô Ký</desc>
+  </wpt>
+  <wpt lat="10.854199" lon="106.629492">
+    <name>D02-12 hcmc_00445</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.836669" lon="106.619649">
+    <name>D02-13 hcmc_00403</name>
+    <desc>residential | Đông Hưng Thuận 39</desc>
+  </wpt>
+  <wpt lat="10.833108" lon="106.616667">
+    <name>D02-14 hcmc_00838</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.830662" lon="106.612312">
+    <name>D02-15 hcmc_01668</name>
+    <desc>residential | Hẻm 255 Phan Văn Hớn</desc>
+  </wpt>
+  <wpt lat="10.826065" lon="106.614506">
+    <name>D02-16 hcmc_00324</name>
+    <desc>residential | Đường C</desc>
+  </wpt>
+  <wpt lat="10.821915" lon="106.619146">
+    <name>D02-17 hcmc_02243</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.845155" lon="106.602241">
+    <name>D02-18 hcmc_02460</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.842171" lon="106.598642">
+    <name>D02-19 hcmc_01596</name>
+    <desc>residential | Tây Lân 7</desc>
+  </wpt>
+  <wpt lat="10.845962" lon="106.589189">
+    <name>D02-20 hcmc_00129</name>
+    <desc>residential | Đường Xuân Thới Thượng 58</desc>
+  </wpt>
+  <wpt lat="10.850959" lon="106.589912">
+    <name>D02-21 hcmc_01366</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.853893" lon="106.592591">
+    <name>D02-22 hcmc_00152</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.856233" lon="106.599501">
+    <name>D02-23 hcmc_01001</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.874654" lon="106.589364">
+    <name>D02-24 hcmc_00996</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.836283" lon="106.588784">
+    <name>D02-25 hcmc_00461</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.832622" lon="106.584819">
+    <name>D02-26 hcmc_00035</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.745930" lon="106.618793">
+    <name>D03-01 hcmc_00781</name>
+    <desc>residential | Phạm Bành</desc>
+  </wpt>
+  <wpt lat="10.745440" lon="106.623596">
+    <name>D03-02 hcmc_00021</name>
+    <desc>primary | Vòng xoay Mũi Tàu</desc>
+  </wpt>
+  <wpt lat="10.738635" lon="106.621610">
+    <name>D03-03 hcmc_02275</name>
+    <desc>tertiary | Đường số 1</desc>
+  </wpt>
+  <wpt lat="10.735682" lon="106.616669">
+    <name>D03-04 hcmc_01584</name>
+    <desc>residential | Hẻm 26/19/11 Lâm Hoành</desc>
+  </wpt>
+  <wpt lat="10.737780" lon="106.614784">
+    <name>D03-05 hcmc_02157</name>
+    <desc>primary | Kinh Dương Vương</desc>
+  </wpt>
+  <wpt lat="10.725748" lon="106.612658">
+    <name>D03-06 hcmc_02239</name>
+    <desc>residential | Đường 2A</desc>
+  </wpt>
+  <wpt lat="10.731454" lon="106.602637">
+    <name>D03-07 hcmc_01076</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.742502" lon="106.588335">
+    <name>D03-08 hcmc_02211</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.707662" lon="106.587084">
+    <name>D03-09 hcmc_01269</name>
+    <desc>residential | Xóm Hố</desc>
+  </wpt>
+  <wpt lat="10.704028" lon="106.585100">
+    <name>D03-10 hcmc_01260</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.694713" lon="106.589433">
+    <name>D03-11 hcmc_00546</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.691931" lon="106.580469">
+    <name>D03-12 hcmc_00449</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.681863" lon="106.597272">
+    <name>D03-13 hcmc_01967</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.679906" lon="106.610229">
+    <name>D03-14 hcmc_02084</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.680381" lon="106.615282">
+    <name>D03-15 hcmc_00089</name>
+    <desc>residential | Đường Số 8C</desc>
+  </wpt>
+  <wpt lat="10.687501" lon="106.613675">
+    <name>D03-16 hcmc_01693</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.689364" lon="106.614706">
+    <name>D03-17 hcmc_00476</name>
+    <desc>residential | Đường Ấp 3</desc>
+  </wpt>
+  <wpt lat="10.692214" lon="106.609633">
+    <name>D03-18 hcmc_01541</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.708850" lon="106.621818">
+    <name>D03-19 hcmc_01389</name>
+    <desc>residential | Hẻm 280/33 Trịnh Quang Nghị</desc>
+  </wpt>
+  <wpt lat="10.713274" lon="106.622972">
+    <name>D03-20 hcmc_00687</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.716141" lon="106.619253">
+    <name>D03-21 hcmc_01464</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.708830" lon="106.627733">
+    <name>D03-22 hcmc_00195</name>
+    <desc>tertiary | Đường Lê Bôi</desc>
+  </wpt>
+  <wpt lat="10.715328" lon="106.632040">
+    <name>D03-23 hcmc_00435</name>
+    <desc>residential | Hẻm 3049/4/2 Phạm Thế Hiển</desc>
+  </wpt>
+  <wpt lat="10.716193" lon="106.631867">
+    <name>D03-24 hcmc_01927</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.723425" lon="106.632084">
+    <name>D03-25 hcmc_02289</name>
+    <desc>residential | Hẻm 9 Bình Đức</desc>
+  </wpt>
+  <wpt lat="10.726706" lon="106.635418">
+    <name>D03-26 hcmc_00424</name>
+    <desc>residential | Hẻm 243 Lưu Hữu Phước</desc>
+  </wpt>
+  <wpt lat="10.737280" lon="106.630128">
+    <name>D03-27 hcmc_02371</name>
+    <desc>secondary | Đường Lý Chiêu Hoàng</desc>
+  </wpt>
+  <wpt lat="10.697463" lon="106.645371">
+    <name>D03-28 hcmc_02259</name>
+    <desc>secondary | Đường Trịnh Quang Nghị</desc>
+  </wpt>
+  <wpt lat="10.692995" lon="106.656017">
+    <name>D03-29 hcmc_00139</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.683531" lon="106.641102">
+    <name>D03-30 hcmc_02217</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.686550" lon="106.629815">
+    <name>D03-31 hcmc_02459</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.873866" lon="106.651596">
+    <name>D04-01 hcmc_02174</name>
+    <desc>residential | Thới An 20</desc>
+  </wpt>
+  <wpt lat="10.866428" lon="106.658183">
+    <name>D04-02 hcmc_01206</name>
+    <desc>residential | Thới An 28</desc>
+  </wpt>
+  <wpt lat="10.863006" lon="106.665971">
+    <name>D04-03 hcmc_00533</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.853377" lon="106.664526">
+    <name>D04-04 hcmc_02486</name>
+    <desc>residential | Hẻm 763 Thống Nhất</desc>
+  </wpt>
+  <wpt lat="10.853665" lon="106.658255">
+    <name>D04-05 hcmc_00023</name>
+    <desc>secondary | Lê Đức Thọ</desc>
+  </wpt>
+  <wpt lat="10.848500" lon="106.659758">
+    <name>D04-06 hcmc_00141</name>
+    <desc>residential | Hẻm 109/29 Đường số 2</desc>
+  </wpt>
+  <wpt lat="10.845954" lon="106.662600">
+    <name>D04-07 hcmc_00344</name>
+    <desc>residential | Hẻm 48 Đường số 1</desc>
+  </wpt>
+  <wpt lat="10.844288" lon="106.660040">
+    <name>D04-08 hcmc_01728</name>
+    <desc>residential | Hẻm 223 Đường số 8</desc>
+  </wpt>
+  <wpt lat="10.837446" lon="106.665159">
+    <name>D04-09 hcmc_00924</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.835745" lon="106.667388">
+    <name>D04-10 hcmc_00545</name>
+    <desc>residential | Đường Số 8</desc>
+  </wpt>
+  <wpt lat="10.834588" lon="106.664336">
+    <name>D04-11 hcmc_02181</name>
+    <desc>primary | Quang Trung</desc>
+  </wpt>
+  <wpt lat="10.842493" lon="106.679664">
+    <name>D04-12 hcmc_00531</name>
+    <desc>residential | Đường số 27</desc>
+  </wpt>
+  <wpt lat="10.853419" lon="106.673504">
+    <name>D04-13 hcmc_02417</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.849815" lon="106.643699">
+    <name>D04-14 hcmc_00250</name>
+    <desc>residential | Hẻm 14 Đường số 53</desc>
+  </wpt>
+  <wpt lat="10.851211" lon="106.639368">
+    <name>D04-15 hcmc_01722</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.851231" lon="106.639249">
+    <name>D04-16 hcmc_02319</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.852252" lon="106.638078">
+    <name>D04-17 hcmc_00277</name>
+    <desc>residential | Đông Hưng Thuận 23</desc>
+  </wpt>
+  <wpt lat="10.860491" lon="106.641825">
+    <name>D04-18 hcmc_02287</name>
+    <desc>residential | Hẻm 65 Nguyễn Thị Căn</desc>
+  </wpt>
+  <wpt lat="10.833501" lon="106.633912">
+    <name>D04-19 hcmc_01759</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.827910" lon="106.642365">
+    <name>D04-20 hcmc_00420</name>
+    <desc>tertiary | Tân Sơn</desc>
+  </wpt>
+  <wpt lat="10.822990" lon="106.639362">
+    <name>D04-21 hcmc_00422</name>
+    <desc>tertiary | Phạm Văn Bạch</desc>
+  </wpt>
+  <wpt lat="10.819178" lon="106.638359">
+    <name>D04-22 hcmc_00227</name>
+    <desc>residential | Hẻm 2 Phạm Văn Bạch</desc>
+  </wpt>
+  <wpt lat="10.822654" lon="106.630062">
+    <name>D04-23 hcmc_00702</name>
+    <desc>primary | Trường Chinh</desc>
+  </wpt>
+  <wpt lat="10.778248" lon="106.671797">
+    <name>D05-01 hcmc_02368</name>
+    <desc>residential | Hòa Hưng</desc>
+  </wpt>
+  <wpt lat="10.768379" lon="106.662736">
+    <name>D05-02 hcmc_00756</name>
+    <desc>residential | Nguyễn Ngọc Lộc</desc>
+  </wpt>
+  <wpt lat="10.767117" lon="106.664294">
+    <name>D05-03 hcmc_01207</name>
+    <desc>residential | Hẻm 506/15 Đường 3 Tháng 2</desc>
+  </wpt>
+  <wpt lat="10.763330" lon="106.663729">
+    <name>D05-04 hcmc_02422</name>
+    <desc>residential | Nguyễn Lâm</desc>
+  </wpt>
+  <wpt lat="10.763273" lon="106.661793">
+    <name>D05-05 hcmc_00045</name>
+    <desc>residential | Nhật Tảo</desc>
+  </wpt>
+  <wpt lat="10.760942" lon="106.665190">
+    <name>D05-06 hcmc_02152</name>
+    <desc>tertiary | Ngô Quyền</desc>
+  </wpt>
+  <wpt lat="10.764678" lon="106.670703">
+    <name>D05-07 hcmc_00484</name>
+    <desc>residential | Hẻm 193 Bà Hạt</desc>
+  </wpt>
+  <wpt lat="10.759560" lon="106.679318">
+    <name>D05-08 hcmc_02497</name>
+    <desc>secondary | An Dương Vương</desc>
+  </wpt>
+  <wpt lat="10.755720" lon="106.677744">
+    <name>D05-09 hcmc_00392</name>
+    <desc>residential | Đường Phan Văn Trị</desc>
+  </wpt>
+  <wpt lat="10.756225" lon="106.684298">
+    <name>D05-10 hcmc_02310</name>
+    <desc>primary | Trần Hưng Đạo</desc>
+  </wpt>
+  <wpt lat="10.757995" lon="106.686748">
+    <name>D05-11 hcmc_02365</name>
+    <desc>primary | Trần Hưng Đạo</desc>
+  </wpt>
+  <wpt lat="10.765613" lon="106.681492">
+    <name>D05-12 hcmc_02067</name>
+    <desc>primary | Công trường Cộng Hòa</desc>
+  </wpt>
+  <wpt lat="10.751552" lon="106.671158">
+    <name>D05-13 hcmc_02075</name>
+    <desc>residential | Đường Nguyễn Văn Đừng</desc>
+  </wpt>
+  <wpt lat="10.741589" lon="106.668937">
+    <name>D05-14 hcmc_00812</name>
+    <desc>primary | Cầu Chánh Hưng</desc>
+  </wpt>
+  <wpt lat="10.736212" lon="106.671753">
+    <name>D05-15 hcmc_01935</name>
+    <desc>primary | Phạm Hùng</desc>
+  </wpt>
+  <wpt lat="10.735920" lon="106.680081">
+    <name>D05-16 hcmc_01015</name>
+    <desc>tertiary | Cao Lỗ</desc>
+  </wpt>
+  <wpt lat="10.727599" lon="106.680802">
+    <name>D05-17 hcmc_01991</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.726225" lon="106.671325">
+    <name>D05-18 hcmc_01460</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.719206" lon="106.663168">
+    <name>D05-19 hcmc_01487</name>
+    <desc>tertiary | Đường Số 1</desc>
+  </wpt>
+  <wpt lat="10.715398" lon="106.662158">
+    <name>D05-20 hcmc_01801</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.718647" lon="106.653972">
+    <name>D05-21 hcmc_01537</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.733119" lon="106.657080">
+    <name>D05-22 hcmc_00835</name>
+    <desc>residential | Hẻm 399 đường Liên tỉnh 5</desc>
+  </wpt>
+  <wpt lat="10.735850" lon="106.657172">
+    <name>D05-23 hcmc_01946</name>
+    <desc>residential | Hẻm 227/18 đường Liên tỉnh 5</desc>
+  </wpt>
+  <wpt lat="10.738536" lon="106.647597">
+    <name>D05-24 hcmc_01885</name>
+    <desc>residential | Hẻm 100H Hoài Thanh</desc>
+  </wpt>
+  <wpt lat="10.738731" lon="106.647181">
+    <name>D05-25 hcmc_00211</name>
+    <desc>residential | Hẻm 106H Hoài Thanh</desc>
+  </wpt>
+  <wpt lat="10.738871" lon="106.643244">
+    <name>D05-26 hcmc_02476</name>
+    <desc>tertiary | Cầu Kênh Ngang số 2</desc>
+  </wpt>
+  <wpt lat="10.749651" lon="106.648645">
+    <name>D05-27 hcmc_02291</name>
+    <desc>secondary | Hậu Giang</desc>
+  </wpt>
+  <wpt lat="10.749257" lon="106.650334">
+    <name>D05-28 hcmc_01585</name>
+    <desc>residential | Lê Tấn Kế</desc>
+  </wpt>
+  <wpt lat="10.745933" lon="106.660123">
+    <name>D05-29 hcmc_00532</name>
+    <desc>residential | Đường Phong Phú</desc>
+  </wpt>
+  <wpt lat="10.745717" lon="106.661284">
+    <name>D05-30 hcmc_00631</name>
+    <desc>secondary | Xóm Củi</desc>
+  </wpt>
+  <wpt lat="10.762085" lon="106.657144">
+    <name>D05-31 hcmc_01685</name>
+    <desc>secondary | Lê Đại Hành</desc>
+  </wpt>
+  <wpt lat="10.768746" lon="106.645719">
+    <name>D05-32 hcmc_00352</name>
+    <desc>residential | Hẻm 416 Lạc Long Quân</desc>
+  </wpt>
+  <wpt lat="10.739165" lon="106.690416">
+    <name>D05-33 hcmc_01853</name>
+    <desc>secondary | Đường số 4</desc>
+  </wpt>
+  <wpt lat="10.745216" lon="106.695761">
+    <name>D05-34 hcmc_00649</name>
+    <desc>tertiary | Đường Ngô Thị Bì</desc>
+  </wpt>
+  <wpt lat="10.845368" lon="106.691310">
+    <name>D06-01 hcmc_00551</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.835627" lon="106.685903">
+    <name>D06-02 hcmc_02175</name>
+    <desc>residential | Hẻm 416/15 Dương Quảng Hàm</desc>
+  </wpt>
+  <wpt lat="10.831822" lon="106.686150">
+    <name>D06-03 hcmc_01898</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.830431" lon="106.683790">
+    <name>D06-04 hcmc_01089</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.826422" lon="106.681238">
+    <name>D06-05 hcmc_00717</name>
+    <desc>residential | Hẻm 372 Nguyễn Văn Nghi</desc>
+  </wpt>
+  <wpt lat="10.830925" lon="106.678592">
+    <name>D06-06 hcmc_01374</name>
+    <desc>residential | Phạm Huy Thông</desc>
+  </wpt>
+  <wpt lat="10.830661" lon="106.677690">
+    <name>D06-07 hcmc_00833</name>
+    <desc>primary | Nguyễn Oanh</desc>
+  </wpt>
+  <wpt lat="10.828584" lon="106.673910">
+    <name>D06-08 hcmc_01932</name>
+    <desc>primary | Quang Trung</desc>
+  </wpt>
+  <wpt lat="10.827887" lon="106.692479">
+    <name>D06-09 hcmc_01445</name>
+    <desc>residential | Hẻm 566 Nguyễn Thái Sơn</desc>
+  </wpt>
+  <wpt lat="10.819446" lon="106.695244">
+    <name>D06-10 hcmc_01002</name>
+    <desc>residential | Hẻm 336 Phan Văn Trị</desc>
+  </wpt>
+  <wpt lat="10.807796" lon="106.708610">
+    <name>D06-11 hcmc_00890</name>
+    <desc>residential | Hẻm 101 Đường Đinh Bộ Lĩnh</desc>
+  </wpt>
+  <wpt lat="10.809515" lon="106.715767">
+    <name>D06-12 hcmc_01796</name>
+    <desc>residential | Hẻm 758 Xô Viết Nghệ Tĩnh</desc>
+  </wpt>
+  <wpt lat="10.816535" lon="106.718103">
+    <name>D06-13 hcmc_01671</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.817947" lon="106.719404">
+    <name>D06-14 hcmc_00267</name>
+    <desc>residential | Thanh Đa</desc>
+  </wpt>
+  <wpt lat="10.830904" lon="106.712023">
+    <name>D06-15 hcmc_00285</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.798865" lon="106.699987">
+    <name>D06-16 hcmc_02433</name>
+    <desc>residential | Nguyễn Xuân Ôn</desc>
+  </wpt>
+  <wpt lat="10.797437" lon="106.690238">
+    <name>D06-17 hcmc_02072</name>
+    <desc>tertiary | Phan Xích Long</desc>
+  </wpt>
+  <wpt lat="10.799684" lon="106.686778">
+    <name>D06-18 hcmc_00544</name>
+    <desc>residential | Đường Hoa Cúc</desc>
+  </wpt>
+  <wpt lat="10.796654" lon="106.677717">
+    <name>D06-19 hcmc_00348</name>
+    <desc>tertiary | Trần Huy Liệu</desc>
+  </wpt>
+  <wpt lat="10.788292" lon="106.681942">
+    <name>D06-20 hcmc_02182</name>
+    <desc>tertiary | Trường Sa</desc>
+  </wpt>
+  <wpt lat="10.784503" lon="106.678508">
+    <name>D06-21 hcmc_01494</name>
+    <desc>tertiary | Trường Sa</desc>
+  </wpt>
+  <wpt lat="10.790423" lon="106.662625">
+    <name>D06-22 hcmc_00912</name>
+    <desc>residential | Hẻm 159 Phạm Văn Hai</desc>
+  </wpt>
+  <wpt lat="10.730400" lon="106.718037">
+    <name>D07-01 hcmc_00162</name>
+    <desc>residential | Thung Lũng Xanh</desc>
+  </wpt>
+  <wpt lat="10.728468" lon="106.715290">
+    <name>D07-02 hcmc_00566</name>
+    <desc>primary | Nguyễn Văn Linh</desc>
+  </wpt>
+  <wpt lat="10.728339" lon="106.708609">
+    <name>D07-03 hcmc_01017</name>
+    <desc>secondary | nan</desc>
+  </wpt>
+  <wpt lat="10.726773" lon="106.703320">
+    <name>D07-04 hcmc_02054</name>
+    <desc>residential | Nguyễn Phan Chánh</desc>
+  </wpt>
+  <wpt lat="10.727829" lon="106.700626">
+    <name>D07-05 hcmc_01764</name>
+    <desc>primary | Nguyễn Hữu Thọ</desc>
+  </wpt>
+  <wpt lat="10.723700" lon="106.720511">
+    <name>D07-06 hcmc_01717</name>
+    <desc>secondary | Đường Trần Văn Trà</desc>
+  </wpt>
+  <wpt lat="10.723902" lon="106.728630">
+    <name>D07-07 hcmc_01252</name>
+    <desc>residential | Đường Số 16</desc>
+  </wpt>
+  <wpt lat="10.704952" lon="106.735753">
+    <name>D07-08 hcmc_01836</name>
+    <desc>secondary | Phạm Hữu Lầu</desc>
+  </wpt>
+  <wpt lat="10.700480" lon="106.739857">
+    <name>D07-09 hcmc_00891</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.695676" lon="106.742516">
+    <name>D07-10 hcmc_01770</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.693493" lon="106.734427">
+    <name>D07-11 hcmc_02332</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.681942" lon="106.731053">
+    <name>D07-12 hcmc_02056</name>
+    <desc>residential | Đường số 9</desc>
+  </wpt>
+  <wpt lat="10.685438" lon="106.709426">
+    <name>D07-13 hcmc_01528</name>
+    <desc>residential | Hẻm 15</desc>
+  </wpt>
+  <wpt lat="10.681456" lon="106.705370">
+    <name>D07-14 hcmc_02429</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.694936" lon="106.684334">
+    <name>D07-15 hcmc_01789</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.701068" lon="106.686690">
+    <name>D07-16 hcmc_01571</name>
+    <desc>tertiary | Đào Sư Tích</desc>
+  </wpt>
+  <wpt lat="10.686689" lon="106.680095">
+    <name>D07-17 hcmc_00303</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.803119" lon="106.727047">
+    <name>D08-01 hcmc_01401</name>
+    <desc>residential | Hẻm 16 Nguyễn Văn Hưởng</desc>
+  </wpt>
+  <wpt lat="10.799148" lon="106.724174">
+    <name>D08-02 hcmc_02086</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.798236" lon="106.725141">
+    <name>D08-03 hcmc_02204</name>
+    <desc>primary | Cầu Sài Gòn 2</desc>
+  </wpt>
+  <wpt lat="10.797371" lon="106.717403">
+    <name>D08-04 hcmc_01442</name>
+    <desc>residential | Hẻm 602 Điện Biên Phủ</desc>
+  </wpt>
+  <wpt lat="10.792094" lon="106.708663">
+    <name>D08-05 hcmc_01440</name>
+    <desc>residential | Phan Văn Hân</desc>
+  </wpt>
+  <wpt lat="10.788823" lon="106.701983">
+    <name>D08-06 hcmc_00623</name>
+    <desc>residential | Phạm Khắc</desc>
+  </wpt>
+  <wpt lat="10.783185" lon="106.701177">
+    <name>D08-07 hcmc_00167</name>
+    <desc>tertiary | Mạc Đĩnh Chi</desc>
+  </wpt>
+  <wpt lat="10.784174" lon="106.710010">
+    <name>D08-08 hcmc_00451</name>
+    <desc>residential | Riverview 8</desc>
+  </wpt>
+  <wpt lat="10.775530" lon="106.711269">
+    <name>D08-09 hcmc_00104</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.774733" lon="106.705694">
+    <name>D08-10 hcmc_01200</name>
+    <desc>residential | Hồ Huấn Nghiệp</desc>
+  </wpt>
+  <wpt lat="10.771108" lon="106.702407">
+    <name>D08-11 hcmc_02499</name>
+    <desc>secondary | Pasteur</desc>
+  </wpt>
+  <wpt lat="10.769697" lon="106.697014">
+    <name>D08-12 hcmc_00061</name>
+    <desc>primary | Trần Hưng Đạo</desc>
+  </wpt>
+  <wpt lat="10.764859" lon="106.697430">
+    <name>D08-13 hcmc_02415</name>
+    <desc>secondary | Nguyễn Thái Học</desc>
+  </wpt>
+  <wpt lat="10.759732" lon="106.695735">
+    <name>D08-14 hcmc_00575</name>
+    <desc>secondary | Bến Vân Đồn</desc>
+  </wpt>
+  <wpt lat="10.764854" lon="106.707564">
+    <name>D08-15 hcmc_00042</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.755947" lon="106.721301">
+    <name>D08-16 hcmc_01758</name>
+    <desc>residential | Trần Xuân Soạn</desc>
+  </wpt>
+  <wpt lat="10.748717" lon="106.716220">
+    <name>D08-17 hcmc_01157</name>
+    <desc>residential | Đường 11N</desc>
+  </wpt>
+  <wpt lat="10.741384" lon="106.718265">
+    <name>D08-18 hcmc_01186</name>
+    <desc>residential | Đường Số 47</desc>
+  </wpt>
+  <wpt lat="10.746200" lon="106.708732">
+    <name>D08-19 hcmc_00437</name>
+    <desc>residential | Đường số 8</desc>
+  </wpt>
+  <wpt lat="10.747750" lon="106.704725">
+    <name>D08-20 hcmc_01028</name>
+    <desc>tertiary | Lê Văn Lương</desc>
+  </wpt>
+  <wpt lat="10.752838" lon="106.729873">
+    <name>D08-21 hcmc_01831</name>
+    <desc>tertiary | Tân Thuận</desc>
+  </wpt>
+  <wpt lat="10.755955" lon="106.732767">
+    <name>D08-22 hcmc_02235</name>
+    <desc>residential | Đường số 1</desc>
+  </wpt>
+  <wpt lat="10.758771" lon="106.736868">
+    <name>D08-23 hcmc_01948</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.771474" lon="106.725626">
+    <name>D08-24 hcmc_02379</name>
+    <desc>residential | Đường Số 10</desc>
+  </wpt>
+  <wpt lat="10.773258" lon="106.728000">
+    <name>D08-25 hcmc_00086</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.783552" lon="106.743485">
+    <name>D08-26 hcmc_00791</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.795069" lon="106.734956">
+    <name>D08-27 hcmc_00381</name>
+    <desc>residential | Đường Số 6</desc>
+  </wpt>
+  <wpt lat="10.781118" lon="106.685657">
+    <name>D08-28 hcmc_01523</name>
+    <desc>tertiary | Trương Định</desc>
+  </wpt>
+  <wpt lat="10.881436" lon="106.727901">
+    <name>D09-01 hcmc_00742</name>
+    <desc>residential | Hẻm 1047/16 Tỉnh lộ 43</desc>
+  </wpt>
+  <wpt lat="10.879697" lon="106.728567">
+    <name>D09-02 hcmc_01039</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.879739" lon="106.731728">
+    <name>D09-03 hcmc_02375</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.877880" lon="106.733349">
+    <name>D09-04 hcmc_00628</name>
+    <desc>primary | Bình Chiểu</desc>
+  </wpt>
+  <wpt lat="10.873141" lon="106.723341">
+    <name>D09-05 hcmc_01284</name>
+    <desc>residential | Đường Số 2</desc>
+  </wpt>
+  <wpt lat="10.871251" lon="106.709868">
+    <name>D09-06 hcmc_00964</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.859015" lon="106.713186">
+    <name>D09-07 hcmc_02420</name>
+    <desc>residential | An Phú Đông 3</desc>
+  </wpt>
+  <wpt lat="10.855846" lon="106.719634">
+    <name>D09-08 hcmc_00724</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.845994" lon="106.719086">
+    <name>D09-09 hcmc_01869</name>
+    <desc>residential | Hẻm 520 Quốc lộ 13</desc>
+  </wpt>
+  <wpt lat="10.844107" lon="106.715622">
+    <name>D09-10 hcmc_01415</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.846335" lon="106.723942">
+    <name>D09-11 hcmc_02110</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.850617" lon="106.736535">
+    <name>D09-12 hcmc_02483</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.851557" lon="106.742320">
+    <name>D09-13 hcmc_00258</name>
+    <desc>residential | Hẻm 44 Đường Số 24</desc>
+  </wpt>
+  <wpt lat="10.848340" lon="106.746695">
+    <name>D09-14 hcmc_02408</name>
+    <desc>residential | Đường số 26</desc>
+  </wpt>
+  <wpt lat="10.833913" lon="106.730335">
+    <name>D09-15 hcmc_01436</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.853343" lon="106.706321">
+    <name>D09-16 hcmc_01680</name>
+    <desc>tertiary | nan</desc>
+  </wpt>
+  <wpt lat="10.851686" lon="106.690063">
+    <name>D09-17 hcmc_01223</name>
+    <desc>residential | Hẻm 140 Vườn Lài</desc>
+  </wpt>
+  <wpt lat="10.874271" lon="106.686727">
+    <name>D09-18 hcmc_01220</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.876578" lon="106.748241">
+    <name>D09-19 hcmc_00769</name>
+    <desc>residential | Đường số 2</desc>
+  </wpt>
+  <wpt lat="10.880081" lon="106.812167">
+    <name>D10-01 hcmc_02261</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.867648" lon="106.787742">
+    <name>D10-02 hcmc_02240</name>
+    <desc>tertiary | Đường số 1</desc>
+  </wpt>
+  <wpt lat="10.863530" lon="106.784286">
+    <name>D10-03 hcmc_00068</name>
+    <desc>residential | Đường Vận Hành</desc>
+  </wpt>
+  <wpt lat="10.858733" lon="106.788119">
+    <name>D10-04 hcmc_00524</name>
+    <desc>secondary | Song Hành Xa Lộ Hà Nội</desc>
+  </wpt>
+  <wpt lat="10.851942" lon="106.794999">
+    <name>D10-05 hcmc_02115</name>
+    <desc>residential | Đường D2</desc>
+  </wpt>
+  <wpt lat="10.847565" lon="106.790853">
+    <name>D10-06 hcmc_02055</name>
+    <desc>tertiary | Đường Số 385</desc>
+  </wpt>
+  <wpt lat="10.844394" lon="106.791373">
+    <name>D10-07 hcmc_00926</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.844457" lon="106.802737">
+    <name>D10-08 hcmc_01613</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.845977" lon="106.804827">
+    <name>D10-09 hcmc_02135</name>
+    <desc>unclassified | Đường N7</desc>
+  </wpt>
+  <wpt lat="10.839553" lon="106.811977">
+    <name>D10-10 hcmc_02200</name>
+    <desc>tertiary | Đường D2B</desc>
+  </wpt>
+  <wpt lat="10.828924" lon="106.815176">
+    <name>D10-11 hcmc_01940</name>
+    <desc>residential | Hẻm 25 Đường số 3 Lò Lu</desc>
+  </wpt>
+  <wpt lat="10.828376" lon="106.818418">
+    <name>D10-12 hcmc_00969</name>
+    <desc>residential | Hẻm 48 Đường số 5 Lò Lu</desc>
+  </wpt>
+  <wpt lat="10.823722" lon="106.775766">
+    <name>D10-13 hcmc_01965</name>
+    <desc>residential | Đường Số 339</desc>
+  </wpt>
+  <wpt lat="10.832000" lon="106.763379">
+    <name>D10-14 hcmc_01444</name>
+    <desc>secondary | Nguyễn Văn Bá</desc>
+  </wpt>
+  <wpt lat="10.833913" lon="106.757581">
+    <name>D10-15 hcmc_02177</name>
+    <desc>residential | Đường Số 1</desc>
+  </wpt>
+  <wpt lat="10.843750" lon="106.759364">
+    <name>D10-16 hcmc_01667</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.849138" lon="106.764724">
+    <name>D10-17 hcmc_02435</name>
+    <desc>residential | Đường Số 5</desc>
+  </wpt>
+  <wpt lat="10.847507" lon="106.769383">
+    <name>D10-18 hcmc_01670</name>
+    <desc>residential | Chu Mạnh Trinh</desc>
+  </wpt>
+  <wpt lat="10.869186" lon="106.761669">
+    <name>D10-19 hcmc_01270</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.872975" lon="106.763942">
+    <name>D10-20 hcmc_00765</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.879973" lon="106.765412">
+    <name>D10-21 hcmc_00142</name>
+    <desc>secondary | Đường số 5</desc>
+  </wpt>
+  <wpt lat="10.879208" lon="106.778084">
+    <name>D10-22 hcmc_00684</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.878641" lon="106.780594">
+    <name>D10-23 hcmc_00171</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.816985" lon="106.785275">
+    <name>D11-01 hcmc_00718</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.812883" lon="106.772540">
+    <name>D11-02 hcmc_02400</name>
+    <desc>tertiary | Đại Lộ 3</desc>
+  </wpt>
+  <wpt lat="10.815338" lon="106.769643">
+    <name>D11-03 hcmc_00872</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.800175" lon="106.777739">
+    <name>D11-04 hcmc_01590</name>
+    <desc>residential | Đường D7</desc>
+  </wpt>
+  <wpt lat="10.793012" lon="106.781071">
+    <name>D11-05 hcmc_00390</name>
+    <desc>residential | Đường Số 58</desc>
+  </wpt>
+  <wpt lat="10.790730" lon="106.778565">
+    <name>D11-06 hcmc_02066</name>
+    <desc>residential | Đường Số 57</desc>
+  </wpt>
+  <wpt lat="10.786865" lon="106.778691">
+    <name>D11-07 hcmc_01398</name>
+    <desc>residential | Đường Số 24</desc>
+  </wpt>
+  <wpt lat="10.774202" lon="106.778613">
+    <name>D11-08 hcmc_02389</name>
+    <desc>primary | Võ Chí Công</desc>
+  </wpt>
+  <wpt lat="10.768598" lon="106.777693">
+    <name>D11-09 hcmc_01185</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.766676" lon="106.776807">
+    <name>D11-10 hcmc_01470</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.764073" lon="106.780762">
+    <name>D11-11 hcmc_01657</name>
+    <desc>residential | Đường D</desc>
+  </wpt>
+  <wpt lat="10.764881" lon="106.790068">
+    <name>D11-12 hcmc_01729</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.779760" lon="106.790331">
+    <name>D11-13 hcmc_01110</name>
+    <desc>residential | Đường 1E</desc>
+  </wpt>
+  <wpt lat="10.781313" lon="106.791769">
+    <name>D11-14 hcmc_00146</name>
+    <desc>residential | Đường 1A</desc>
+  </wpt>
+  <wpt lat="10.781222" lon="106.809393">
+    <name>D11-15 hcmc_01762</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.796314" lon="106.817048">
+    <name>D11-16 hcmc_00559</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.800934" lon="106.812174">
+    <name>D11-17 hcmc_01554</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.804518" lon="106.807150">
+    <name>D11-18 hcmc_00502</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.813167" lon="106.810272">
+    <name>D11-19 hcmc_01926</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.815814" lon="106.808752">
+    <name>D11-20 hcmc_02428</name>
+    <desc>residential | Võ Văn Hát</desc>
+  </wpt>
+  <wpt lat="10.804663" lon="106.820327">
+    <name>D11-21 hcmc_01619</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.798925" lon="106.794270">
+    <name>D11-22 hcmc_00593</name>
+    <desc>residential | Đường N3 Blue</desc>
+  </wpt>
+  <wpt lat="10.790532" lon="106.763490">
+    <name>D11-23 hcmc_01645</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.793987" lon="106.759176">
+    <name>D11-24 hcmc_00452</name>
+    <desc>secondary | Đường Song Hành Cao Tốc</desc>
+  </wpt>
+  <wpt lat="10.783438" lon="106.759038">
+    <name>D11-25 hcmc_01417</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.782651" lon="106.764590">
+    <name>D11-26 hcmc_01040</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.807201" lon="106.749305">
+    <name>D11-27 hcmc_02032</name>
+    <desc>residential | Đường số 3</desc>
+  </wpt>
+  <wpt lat="10.749752" lon="106.805168">
+    <name>D12-01 hcmc_00603</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.732177" lon="106.820089">
+    <name>D12-02 hcmc_00690</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.722363" lon="106.797582">
+    <name>D12-03 hcmc_01105</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.706314" lon="106.812145">
+    <name>D12-04 hcmc_01599</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.702266" lon="106.819949">
+    <name>D12-05 hcmc_01347</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.720228" lon="106.775694">
+    <name>D12-06 hcmc_00283</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.735142" lon="106.775222">
+    <name>D12-07 hcmc_01713</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.710704" lon="106.762963">
+    <name>D12-08 hcmc_00754</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.699597" lon="106.771052">
+    <name>D12-09 hcmc_00386</name>
+    <desc>residential | nan</desc>
+  </wpt>
+  <wpt lat="10.695551" lon="106.767792">
+    <name>D12-10 hcmc_01355</name>
+    <desc>tertiary | Phan Văn Đáng</desc>
+  </wpt>
+  <trk>
+    <name>Day 01</name>
+    <trkseg>
+      <trkpt lat="10.817711" lon="106.605787" />
+      <trkpt lat="10.810076" lon="106.610129" />
+      <trkpt lat="10.806216" lon="106.608052" />
+      <trkpt lat="10.804300" lon="106.607711" />
+      <trkpt lat="10.799000" lon="106.608430" />
+      <trkpt lat="10.799092" lon="106.618471" />
+      <trkpt lat="10.807216" lon="106.621710" />
+      <trkpt lat="10.810572" lon="106.620250" />
+      <trkpt lat="10.811276" lon="106.623877" />
+      <trkpt lat="10.795550" lon="106.638254" />
+      <trkpt lat="10.795293" lon="106.648385" />
+      <trkpt lat="10.781297" lon="106.631690" />
+      <trkpt lat="10.770693" lon="106.635748" />
+      <trkpt lat="10.770906" lon="106.624976" />
+      <trkpt lat="10.767730" lon="106.621036" />
+      <trkpt lat="10.765733" lon="106.619872" />
+      <trkpt lat="10.760976" lon="106.619364" />
+      <trkpt lat="10.754623" lon="106.618246" />
+      <trkpt lat="10.764592" lon="106.607975" />
+      <trkpt lat="10.758934" lon="106.603452" />
+      <trkpt lat="10.753361" lon="106.599607" />
+      <trkpt lat="10.751775" lon="106.596122" />
+      <trkpt lat="10.759175" lon="106.594513" />
+      <trkpt lat="10.760614" lon="106.588340" />
+      <trkpt lat="10.763155" lon="106.579284" />
+      <trkpt lat="10.778362" lon="106.597282" />
+      <trkpt lat="10.780689" lon="106.601634" />
+      <trkpt lat="10.781264" lon="106.606776" />
+      <trkpt lat="10.789019" lon="106.609028" />
+      <trkpt lat="10.789071" lon="106.609877" />
+      <trkpt lat="10.788828" lon="106.614936" />
+      <trkpt lat="10.786619" lon="106.597106" />
+      <trkpt lat="10.788963" lon="106.596485" />
+      <trkpt lat="10.789450" lon="106.596244" />
+      <trkpt lat="10.790506" lon="106.593681" />
+      <trkpt lat="10.796008" lon="106.591660" />
+      <trkpt lat="10.790388" lon="106.585489" />
+      <trkpt lat="10.807710" lon="106.590464" />
+      <trkpt lat="10.808822" lon="106.588222" />
+      <trkpt lat="10.813770" lon="106.592623" />
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Day 02</name>
+    <trkseg>
+      <trkpt lat="10.876418" lon="106.605998" />
+      <trkpt lat="10.870055" lon="106.604223" />
+      <trkpt lat="10.869388" lon="106.604754" />
+      <trkpt lat="10.868856" lon="106.604456" />
+      <trkpt lat="10.869342" lon="106.607567" />
+      <trkpt lat="10.875198" lon="106.614956" />
+      <trkpt lat="10.875664" lon="106.627960" />
+      <trkpt lat="10.859409" lon="106.625100" />
+      <trkpt lat="10.859174" lon="106.625848" />
+      <trkpt lat="10.856408" lon="106.625579" />
+      <trkpt lat="10.854907" lon="106.624632" />
+      <trkpt lat="10.854199" lon="106.629492" />
+      <trkpt lat="10.836669" lon="106.619649" />
+      <trkpt lat="10.833108" lon="106.616667" />
+      <trkpt lat="10.830662" lon="106.612312" />
+      <trkpt lat="10.826065" lon="106.614506" />
+      <trkpt lat="10.821915" lon="106.619146" />
+      <trkpt lat="10.845155" lon="106.602241" />
+      <trkpt lat="10.842171" lon="106.598642" />
+      <trkpt lat="10.845962" lon="106.589189" />
+      <trkpt lat="10.850959" lon="106.589912" />
+      <trkpt lat="10.853893" lon="106.592591" />
+      <trkpt lat="10.856233" lon="106.599501" />
+      <trkpt lat="10.874654" lon="106.589364" />
+      <trkpt lat="10.836283" lon="106.588784" />
+      <trkpt lat="10.832622" lon="106.584819" />
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Day 03</name>
+    <trkseg>
+      <trkpt lat="10.745930" lon="106.618793" />
+      <trkpt lat="10.745440" lon="106.623596" />
+      <trkpt lat="10.738635" lon="106.621610" />
+      <trkpt lat="10.735682" lon="106.616669" />
+      <trkpt lat="10.737780" lon="106.614784" />
+      <trkpt lat="10.725748" lon="106.612658" />
+      <trkpt lat="10.731454" lon="106.602637" />
+      <trkpt lat="10.742502" lon="106.588335" />
+      <trkpt lat="10.707662" lon="106.587084" />
+      <trkpt lat="10.704028" lon="106.585100" />
+      <trkpt lat="10.694713" lon="106.589433" />
+      <trkpt lat="10.691931" lon="106.580469" />
+      <trkpt lat="10.681863" lon="106.597272" />
+      <trkpt lat="10.679906" lon="106.610229" />
+      <trkpt lat="10.680381" lon="106.615282" />
+      <trkpt lat="10.687501" lon="106.613675" />
+      <trkpt lat="10.689364" lon="106.614706" />
+      <trkpt lat="10.692214" lon="106.609633" />
+      <trkpt lat="10.708850" lon="106.621818" />
+      <trkpt lat="10.713274" lon="106.622972" />
+      <trkpt lat="10.716141" lon="106.619253" />
+      <trkpt lat="10.708830" lon="106.627733" />
+      <trkpt lat="10.715328" lon="106.632040" />
+      <trkpt lat="10.716193" lon="106.631867" />
+      <trkpt lat="10.723425" lon="106.632084" />
+      <trkpt lat="10.726706" lon="106.635418" />
+      <trkpt lat="10.737280" lon="106.630128" />
+      <trkpt lat="10.697463" lon="106.645371" />
+      <trkpt lat="10.692995" lon="106.656017" />
+      <trkpt lat="10.683531" lon="106.641102" />
+      <trkpt lat="10.686550" lon="106.629815" />
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Day 04</name>
+    <trkseg>
+      <trkpt lat="10.873866" lon="106.651596" />
+      <trkpt lat="10.866428" lon="106.658183" />
+      <trkpt lat="10.863006" lon="106.665971" />
+      <trkpt lat="10.853377" lon="106.664526" />
+      <trkpt lat="10.853665" lon="106.658255" />
+      <trkpt lat="10.848500" lon="106.659758" />
+      <trkpt lat="10.845954" lon="106.662600" />
+      <trkpt lat="10.844288" lon="106.660040" />
+      <trkpt lat="10.837446" lon="106.665159" />
+      <trkpt lat="10.835745" lon="106.667388" />
+      <trkpt lat="10.834588" lon="106.664336" />
+      <trkpt lat="10.842493" lon="106.679664" />
+      <trkpt lat="10.853419" lon="106.673504" />
+      <trkpt lat="10.849815" lon="106.643699" />
+      <trkpt lat="10.851211" lon="106.639368" />
+      <trkpt lat="10.851231" lon="106.639249" />
+      <trkpt lat="10.852252" lon="106.638078" />
+      <trkpt lat="10.860491" lon="106.641825" />
+      <trkpt lat="10.833501" lon="106.633912" />
+      <trkpt lat="10.827910" lon="106.642365" />
+      <trkpt lat="10.822990" lon="106.639362" />
+      <trkpt lat="10.819178" lon="106.638359" />
+      <trkpt lat="10.822654" lon="106.630062" />
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Day 05</name>
+    <trkseg>
+      <trkpt lat="10.778248" lon="106.671797" />
+      <trkpt lat="10.768379" lon="106.662736" />
+      <trkpt lat="10.767117" lon="106.664294" />
+      <trkpt lat="10.763330" lon="106.663729" />
+      <trkpt lat="10.763273" lon="106.661793" />
+      <trkpt lat="10.760942" lon="106.665190" />
+      <trkpt lat="10.764678" lon="106.670703" />
+      <trkpt lat="10.759560" lon="106.679318" />
+      <trkpt lat="10.755720" lon="106.677744" />
+      <trkpt lat="10.756225" lon="106.684298" />
+      <trkpt lat="10.757995" lon="106.686748" />
+      <trkpt lat="10.765613" lon="106.681492" />
+      <trkpt lat="10.751552" lon="106.671158" />
+      <trkpt lat="10.741589" lon="106.668937" />
+      <trkpt lat="10.736212" lon="106.671753" />
+      <trkpt lat="10.735920" lon="106.680081" />
+      <trkpt lat="10.727599" lon="106.680802" />
+      <trkpt lat="10.726225" lon="106.671325" />
+      <trkpt lat="10.719206" lon="106.663168" />
+      <trkpt lat="10.715398" lon="106.662158" />
+      <trkpt lat="10.718647" lon="106.653972" />
+      <trkpt lat="10.733119" lon="106.657080" />
+      <trkpt lat="10.735850" lon="106.657172" />
+      <trkpt lat="10.738536" lon="106.647597" />
+      <trkpt lat="10.738731" lon="106.647181" />
+      <trkpt lat="10.738871" lon="106.643244" />
+      <trkpt lat="10.749651" lon="106.648645" />
+      <trkpt lat="10.749257" lon="106.650334" />
+      <trkpt lat="10.745933" lon="106.660123" />
+      <trkpt lat="10.745717" lon="106.661284" />
+      <trkpt lat="10.762085" lon="106.657144" />
+      <trkpt lat="10.768746" lon="106.645719" />
+      <trkpt lat="10.739165" lon="106.690416" />
+      <trkpt lat="10.745216" lon="106.695761" />
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Day 06</name>
+    <trkseg>
+      <trkpt lat="10.845368" lon="106.691310" />
+      <trkpt lat="10.835627" lon="106.685903" />
+      <trkpt lat="10.831822" lon="106.686150" />
+      <trkpt lat="10.830431" lon="106.683790" />
+      <trkpt lat="10.826422" lon="106.681238" />
+      <trkpt lat="10.830925" lon="106.678592" />
+      <trkpt lat="10.830661" lon="106.677690" />
+      <trkpt lat="10.828584" lon="106.673910" />
+      <trkpt lat="10.827887" lon="106.692479" />
+      <trkpt lat="10.819446" lon="106.695244" />
+      <trkpt lat="10.807796" lon="106.708610" />
+      <trkpt lat="10.809515" lon="106.715767" />
+      <trkpt lat="10.816535" lon="106.718103" />
+      <trkpt lat="10.817947" lon="106.719404" />
+      <trkpt lat="10.830904" lon="106.712023" />
+      <trkpt lat="10.798865" lon="106.699987" />
+      <trkpt lat="10.797437" lon="106.690238" />
+      <trkpt lat="10.799684" lon="106.686778" />
+      <trkpt lat="10.796654" lon="106.677717" />
+      <trkpt lat="10.788292" lon="106.681942" />
+      <trkpt lat="10.784503" lon="106.678508" />
+      <trkpt lat="10.790423" lon="106.662625" />
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Day 07</name>
+    <trkseg>
+      <trkpt lat="10.730400" lon="106.718037" />
+      <trkpt lat="10.728468" lon="106.715290" />
+      <trkpt lat="10.728339" lon="106.708609" />
+      <trkpt lat="10.726773" lon="106.703320" />
+      <trkpt lat="10.727829" lon="106.700626" />
+      <trkpt lat="10.723700" lon="106.720511" />
+      <trkpt lat="10.723902" lon="106.728630" />
+      <trkpt lat="10.704952" lon="106.735753" />
+      <trkpt lat="10.700480" lon="106.739857" />
+      <trkpt lat="10.695676" lon="106.742516" />
+      <trkpt lat="10.693493" lon="106.734427" />
+      <trkpt lat="10.681942" lon="106.731053" />
+      <trkpt lat="10.685438" lon="106.709426" />
+      <trkpt lat="10.681456" lon="106.705370" />
+      <trkpt lat="10.694936" lon="106.684334" />
+      <trkpt lat="10.701068" lon="106.686690" />
+      <trkpt lat="10.686689" lon="106.680095" />
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Day 08</name>
+    <trkseg>
+      <trkpt lat="10.803119" lon="106.727047" />
+      <trkpt lat="10.799148" lon="106.724174" />
+      <trkpt lat="10.798236" lon="106.725141" />
+      <trkpt lat="10.797371" lon="106.717403" />
+      <trkpt lat="10.792094" lon="106.708663" />
+      <trkpt lat="10.788823" lon="106.701983" />
+      <trkpt lat="10.783185" lon="106.701177" />
+      <trkpt lat="10.784174" lon="106.710010" />
+      <trkpt lat="10.775530" lon="106.711269" />
+      <trkpt lat="10.774733" lon="106.705694" />
+      <trkpt lat="10.771108" lon="106.702407" />
+      <trkpt lat="10.769697" lon="106.697014" />
+      <trkpt lat="10.764859" lon="106.697430" />
+      <trkpt lat="10.759732" lon="106.695735" />
+      <trkpt lat="10.764854" lon="106.707564" />
+      <trkpt lat="10.755947" lon="106.721301" />
+      <trkpt lat="10.748717" lon="106.716220" />
+      <trkpt lat="10.741384" lon="106.718265" />
+      <trkpt lat="10.746200" lon="106.708732" />
+      <trkpt lat="10.747750" lon="106.704725" />
+      <trkpt lat="10.752838" lon="106.729873" />
+      <trkpt lat="10.755955" lon="106.732767" />
+      <trkpt lat="10.758771" lon="106.736868" />
+      <trkpt lat="10.771474" lon="106.725626" />
+      <trkpt lat="10.773258" lon="106.728000" />
+      <trkpt lat="10.783552" lon="106.743485" />
+      <trkpt lat="10.795069" lon="106.734956" />
+      <trkpt lat="10.781118" lon="106.685657" />
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Day 09</name>
+    <trkseg>
+      <trkpt lat="10.881436" lon="106.727901" />
+      <trkpt lat="10.879697" lon="106.728567" />
+      <trkpt lat="10.879739" lon="106.731728" />
+      <trkpt lat="10.877880" lon="106.733349" />
+      <trkpt lat="10.873141" lon="106.723341" />
+      <trkpt lat="10.871251" lon="106.709868" />
+      <trkpt lat="10.859015" lon="106.713186" />
+      <trkpt lat="10.855846" lon="106.719634" />
+      <trkpt lat="10.845994" lon="106.719086" />
+      <trkpt lat="10.844107" lon="106.715622" />
+      <trkpt lat="10.846335" lon="106.723942" />
+      <trkpt lat="10.850617" lon="106.736535" />
+      <trkpt lat="10.851557" lon="106.742320" />
+      <trkpt lat="10.848340" lon="106.746695" />
+      <trkpt lat="10.833913" lon="106.730335" />
+      <trkpt lat="10.853343" lon="106.706321" />
+      <trkpt lat="10.851686" lon="106.690063" />
+      <trkpt lat="10.874271" lon="106.686727" />
+      <trkpt lat="10.876578" lon="106.748241" />
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Day 10</name>
+    <trkseg>
+      <trkpt lat="10.880081" lon="106.812167" />
+      <trkpt lat="10.867648" lon="106.787742" />
+      <trkpt lat="10.863530" lon="106.784286" />
+      <trkpt lat="10.858733" lon="106.788119" />
+      <trkpt lat="10.851942" lon="106.794999" />
+      <trkpt lat="10.847565" lon="106.790853" />
+      <trkpt lat="10.844394" lon="106.791373" />
+      <trkpt lat="10.844457" lon="106.802737" />
+      <trkpt lat="10.845977" lon="106.804827" />
+      <trkpt lat="10.839553" lon="106.811977" />
+      <trkpt lat="10.828924" lon="106.815176" />
+      <trkpt lat="10.828376" lon="106.818418" />
+      <trkpt lat="10.823722" lon="106.775766" />
+      <trkpt lat="10.832000" lon="106.763379" />
+      <trkpt lat="10.833913" lon="106.757581" />
+      <trkpt lat="10.843750" lon="106.759364" />
+      <trkpt lat="10.849138" lon="106.764724" />
+      <trkpt lat="10.847507" lon="106.769383" />
+      <trkpt lat="10.869186" lon="106.761669" />
+      <trkpt lat="10.872975" lon="106.763942" />
+      <trkpt lat="10.879973" lon="106.765412" />
+      <trkpt lat="10.879208" lon="106.778084" />
+      <trkpt lat="10.878641" lon="106.780594" />
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Day 11</name>
+    <trkseg>
+      <trkpt lat="10.816985" lon="106.785275" />
+      <trkpt lat="10.812883" lon="106.772540" />
+      <trkpt lat="10.815338" lon="106.769643" />
+      <trkpt lat="10.800175" lon="106.777739" />
+      <trkpt lat="10.793012" lon="106.781071" />
+      <trkpt lat="10.790730" lon="106.778565" />
+      <trkpt lat="10.786865" lon="106.778691" />
+      <trkpt lat="10.774202" lon="106.778613" />
+      <trkpt lat="10.768598" lon="106.777693" />
+      <trkpt lat="10.766676" lon="106.776807" />
+      <trkpt lat="10.764073" lon="106.780762" />
+      <trkpt lat="10.764881" lon="106.790068" />
+      <trkpt lat="10.779760" lon="106.790331" />
+      <trkpt lat="10.781313" lon="106.791769" />
+      <trkpt lat="10.781222" lon="106.809393" />
+      <trkpt lat="10.796314" lon="106.817048" />
+      <trkpt lat="10.800934" lon="106.812174" />
+      <trkpt lat="10.804518" lon="106.807150" />
+      <trkpt lat="10.813167" lon="106.810272" />
+      <trkpt lat="10.815814" lon="106.808752" />
+      <trkpt lat="10.804663" lon="106.820327" />
+      <trkpt lat="10.798925" lon="106.794270" />
+      <trkpt lat="10.790532" lon="106.763490" />
+      <trkpt lat="10.793987" lon="106.759176" />
+      <trkpt lat="10.783438" lon="106.759038" />
+      <trkpt lat="10.782651" lon="106.764590" />
+      <trkpt lat="10.807201" lon="106.749305" />
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Day 12</name>
+    <trkseg>
+      <trkpt lat="10.749752" lon="106.805168" />
+      <trkpt lat="10.732177" lon="106.820089" />
+      <trkpt lat="10.722363" lon="106.797582" />
+      <trkpt lat="10.706314" lon="106.812145" />
+      <trkpt lat="10.702266" lon="106.819949" />
+      <trkpt lat="10.720228" lon="106.775694" />
+      <trkpt lat="10.735142" lon="106.775222" />
+      <trkpt lat="10.710704" lon="106.762963" />
+      <trkpt lat="10.699597" lon="106.771052" />
+      <trkpt lat="10.695551" lon="106.767792" />
+    </trkseg>
+  </trk>
+</gpx>
