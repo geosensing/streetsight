@@ -104,10 +104,13 @@ def test_route_map_escapes_osm_names(tmp_path: Path):
             "lat": [10.70, 10.71],
             "lon": [106.60, 106.61],
             "osm_type": ["residential", "residential"],
-            "osm_name": ["<img src=x onerror=alert(1)>", "Lê Lợi"],
+            "osm_name": ["<img src=x onerror=alert(1)>", "${globalThis.p=1}`\\"],
         }
     )
     routes = assign_daily_routes(points, n_days=1)
     text = plot_daily_routes(routes, tmp_path / "m.html").read_text(encoding="utf-8")
     assert "<img src=x" not in text
     assert "&lt;img src=x" in text
+    # Popups sit in a JS template literal: no interpolation, no early close.
+    assert "${globalThis" not in text
+    assert "&#36;{globalThis.p=1}&#96;&#92;" in text

@@ -31,6 +31,17 @@ DAY_PALETTE = [
 ]
 
 
+# Folium 0.20 places popup HTML inside a JavaScript template literal, so text must be
+# safe as HTML and inert there: no `${`, backtick, or backslash. OSM names are
+# user-editable. Entities render identically and are not template syntax.
+_TEMPLATE_LITERAL_ENTITIES = str.maketrans({"$": "&#36;", "`": "&#96;", "\\": "&#92;"})
+
+
+def _popup_text(text: str) -> str:
+    """Escape third-party text for a Folium popup."""
+    return html.escape(text).translate(_TEMPLATE_LITERAL_ENTITIES)
+
+
 def haversine_m(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     """Return great-circle distance in meters between two WGS84 coordinates."""
     radius_m = 6_371_000.0
@@ -201,8 +212,7 @@ def plot_daily_routes(routes: pd.DataFrame, output_path: str | Path) -> Path:
             osm_name = row.get("osm_name", "")
             gsv = row.get("has_coverage", None)
             gsv_str = f" | GSV={gsv}" if pd.notna(gsv) else ""
-            # Folium inserts popup text as raw HTML; OSM names are user-editable.
-            popup = html.escape(
+            popup = _popup_text(
                 f"Day {int(day):02d} Stop {int(row['stop_order'])} | "
                 f"{loc_id} | {osm_type} {osm_name}{gsv_str}"
             )
