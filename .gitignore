@@ -43,3 +43,5 @@ data/roads/
 data/samples/*.csv
 data/coverage/*.csv
 data/images/
+data/hcmc/roads/
+data/hcmc/raw_field/

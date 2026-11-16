@@ -1,0 +1,11 @@
+location_id,lat,lon,city,segment_id,osm_name,osm_type,length_m,has_coverage,capture_date,collection_day,stop_order,step_distance_m,time_window
+hcmc_00603,10.74975185,106.8051682,Ho Chi Minh City,177080,,residential,19.29,False,,12,1,0.0,07:30-10:30
+hcmc_00690,10.7321771,106.82008915,Ho Chi Minh City,170255,,residential,4.05,True,2020-02,12,2,2544.8,07:30-10:30
+hcmc_01105,10.72236345,106.79758235,Ho Chi Minh City,169525,,residential,9.17,True,2019-10,12,3,2690.2,07:30-10:30
+hcmc_01599,10.7063142,106.81214465,Ho Chi Minh City,169825,,residential,15.23,True,2020-03,12,4,2390.8,07:30-10:30
+hcmc_01347,10.7022664,106.819949,Ho Chi Minh City,169843,,residential,3.13,False,,12,5,964.2,07:30-10:30
+hcmc_00283,10.7202275,106.77569375,Ho Chi Minh City,176935,,residential,18.54,False,,12,6,5231.5,07:30-10:30
+hcmc_01713,10.73514245,106.7752225,Ho Chi Minh City,176402,,residential,16.27,True,2023-09,12,7,1659.3,07:30-10:30
+hcmc_00754,10.71070435,106.7629628,Ho Chi Minh City,176074,,residential,2.86,False,,12,8,3029.6,07:30-10:30
+hcmc_00386,10.69959735,106.77105195,Ho Chi Minh City,168776,,residential,95.08,False,,12,9,1518.7,07:30-10:30
+hcmc_01355,10.69555095,106.7677918,Ho Chi Minh City,21477,Phan Văn Đáng,tertiary,167.64,True,2023-09,12,10,573.9,07:30-10:30

@@ -149,3 +149,18 @@ def test_annotation_csv_excludes_failed_downloads(tmp_path):
     assert result["location_id"].tolist() == ["a"]
     assert result["annotation_id"].tolist() == ["ann_000000"]
     assert pd.read_csv(path)["location_id"].tolist() == ["a"]
+
+
+@pytest.mark.parametrize(
+    "status", ["REQUEST_DENIED", "OVER_QUERY_LIMIT", "INVALID_REQUEST", "UNKNOWN_ERROR"]
+)
+def test_metadata_request_failure_raises(monkeypatch, status):
+    response = Mock()
+    response.json.return_value = {"status": status, "error_message": "not authorized"}
+    monkeypatch.setattr(streetview.requests, "get", Mock(return_value=response))
+
+    client = streetview.StreetViewClient(api_key="test", rate_limit=0)
+    with pytest.raises(
+        streetview.StreetViewAPIError, match=f"{status}: not authorized"
+    ):
+        client.check_coverage(10.77, 106.70)

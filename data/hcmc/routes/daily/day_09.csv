@@ -1,0 +1,20 @@
+location_id,lat,lon,city,segment_id,osm_name,osm_type,length_m,has_coverage,capture_date,collection_day,stop_order,step_distance_m,time_window
+hcmc_00742,10.88143575,106.7279013,Ho Chi Minh City,108260,Hẻm 1047/16 Tỉnh lộ 43,residential,65.25,True,2020-03,9,1,0.0,07:30-10:30
+hcmc_01039,10.87969695,106.7285675,Ho Chi Minh City,120046,,residential,8.91,True,2026-06,9,2,206.6,07:30-10:30
+hcmc_02375,10.87973905,106.73172845,Ho Chi Minh City,120013,,residential,33.32,True,2023-08,9,3,345.2,07:30-10:30
+hcmc_00628,10.8778804,106.73334885,Ho Chi Minh City,120214,Bình Chiểu,primary,58.79,True,2023-08,9,4,272.1,07:30-10:30
+hcmc_01284,10.87314085,106.7233412,Ho Chi Minh City,77802,Đường Số 2,residential,9.96,True,2023-08,9,5,1213.3,07:30-10:30
+hcmc_00964,10.87125055,106.7098675,Ho Chi Minh City,131859,,residential,40.28,True,2019-05,9,6,1486.3,07:30-10:30
+hcmc_02420,10.85901475,106.713186,Ho Chi Minh City,2411,An Phú Đông 3,residential,115.26,True,2023-08,9,7,1408.0,07:30-10:30
+hcmc_00724,10.8558458,106.7196344,Ho Chi Minh City,56675,,residential,40.67,True,2026-05,9,8,787.4,07:30-10:30
+hcmc_01869,10.8459939,106.7190863,Ho Chi Minh City,122029,Hẻm 520 Quốc lộ 13,residential,39.63,True,2019-04,9,9,1097.1,07:30-10:30
+hcmc_01415,10.8441074,106.715622,Ho Chi Minh City,171194,,residential,29.71,True,2020-03,9,10,432.6,07:30-10:30
+hcmc_02110,10.8463351,106.7239424,Ho Chi Minh City,122022,,residential,49.46,True,2019-09,9,11,941.8,07:30-10:30
+hcmc_02483,10.85061655,106.7365348,Ho Chi Minh City,125053,,residential,17.06,True,2019-04,9,12,1455.3,07:30-10:30
+hcmc_00258,10.8515569,106.74232015,Ho Chi Minh City,182845,Hẻm 44 Đường Số 24,residential,3.48,True,2020-12,9,13,640.4,07:30-10:30
+hcmc_02408,10.84834025,106.74669455,Ho Chi Minh City,50466,Đường số 26,residential,40.72,True,2019-05,9,14,596.8,07:30-10:30
+hcmc_01436,10.833913,106.7303347,Ho Chi Minh City,54048,,residential,21.42,True,2017-04,9,15,2401.2,07:30-10:30
+hcmc_01680,10.85334315,106.70632145,Ho Chi Minh City,91475,,tertiary,37.97,False,,9,16,3397.8,07:30-10:30
+hcmc_01223,10.85168585,106.69006335,Ho Chi Minh City,154369,Hẻm 140 Vườn Lài,residential,58.55,True,2020-03,9,17,1785.0,07:30-10:30
+hcmc_01220,10.874271149999998,106.6867272,Ho Chi Minh City,206772,,residential,2.26,True,2023-08,9,18,2537.7,07:30-10:30
+hcmc_00769,10.8765782,106.74824125,Ho Chi Minh City,77731,Đường số 2,residential,224.11,True,2023-08,9,19,6722.1,07:30-10:30

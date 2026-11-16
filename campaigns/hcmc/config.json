@@ -1,0 +1,10 @@
+{
+  "city": "hcmc",
+  "city_name": "Ho Chi Minh City",
+  "seed": 42,
+  "gsv_sample_n": 2500,
+  "field_sample_n": 300,
+  "n_days": 12,
+  "time_windows": ["07:30-10:30", "15:30-18:30"],
+  "data_dir": "data/hcmc"
+}

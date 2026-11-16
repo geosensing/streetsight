@@ -5,12 +5,14 @@ from dataclasses import dataclass
 from pathlib import Path
 
 import folium
+import numpy as np
 import pandas as pd
 import requests
 
 DATA_DIR = Path("data")
 
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
+USER_AGENT = "streetsight/0.1 (https://github.com/soodoku/missing_women_gsview)"
 
 
 @dataclass
@@ -18,8 +20,8 @@ class CityConfig:
     """Configuration for sampling a city."""
 
     name: str
-    osm_relation_id: int
-    default_samples: int
+    osm_relation_id: int | None = None
+    default_samples: int = 2500
     bbox: tuple[float, float, float, float] | None = None
 
 
@@ -40,11 +42,17 @@ CITY_CONFIGS = {
         default_samples=2000,
         bbox=(18.95, 72.95, 19.25, 73.15),
     ),
+    "hcmc": CityConfig(
+        name="Ho Chi Minh City",
+        osm_relation_id=None,
+        default_samples=2500,
+        bbox=(10.68, 106.58, 10.88, 106.82),
+    ),
 }
 
 
 def _fetch_roads_from_overpass(
-    relation_id: int,
+    relation_id: int | None = None,
     bbox: tuple[float, float, float, float] | None = None,
 ) -> list[dict]:
     """
@@ -65,6 +73,8 @@ def _fetch_roads_from_overpass(
         out skel qt;
         """
     else:
+        if relation_id is None:
+            raise ValueError("Either relation_id or bbox must be provided.")
         query = f"""
         [out:json][timeout:180];
         area(id:{3600000000 + relation_id})->.searchArea;
@@ -77,7 +87,13 @@ def _fetch_roads_from_overpass(
         """
 
     print("Fetching roads from Overpass API...")
-    response = requests.post(OVERPASS_URL, data={"data": query}, timeout=300)
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "application/json",
+    }
+    response = requests.post(
+        OVERPASS_URL, data={"data": query}, headers=headers, timeout=300
+    )
     response.raise_for_status()
     data = response.json()
 
@@ -108,9 +124,11 @@ def _fetch_roads_from_overpass(
 
 def _segment_roads(roads: list[dict], segment_length_m: float = 500) -> list[dict]:
     """
-    Split roads into segments of approximately segment_length_m meters.
+    Turn roads into sampling units: one midpoint per piece of each node-to-node edge.
 
-    Returns list of segment midpoints.
+    Pieces are not ~segment_length_m long. An edge shorter than 2 * segment_length_m
+    stays whole, and OSM edges are mostly tens of meters, so most units are single
+    short edges. Each unit records its `length_m` for length weighting.
     """
     from math import atan2, cos, radians, sin, sqrt
 
@@ -144,6 +162,7 @@ def _segment_roads(roads: list[dict], segment_length_m: float = 500) -> list[dic
                         "osm_id": road["osm_id"],
                         "osm_name": road["name"],
                         "osm_type": road["highway"],
+                        "length_m": distance / n_segments,
                     }
                 )
 
@@ -153,6 +172,7 @@ def _segment_roads(roads: list[dict], segment_length_m: float = 500) -> list[dic
 def get_roads_for_city(
     city: str,
     force_download: bool = False,
+    roads_dir: str | Path | None = None,
 ) -> pd.DataFrame:
     """
     Get road segments for a city.
@@ -160,9 +180,11 @@ def get_roads_for_city(
     Parameters
     ----------
     city : str
-        City name: 'mumbai', 'delhi', or 'navi_mumbai'
+        City name: 'mumbai', 'delhi', 'navi_mumbai', or 'hcmc'
     force_download : bool
         Re-download even if data exists
+    roads_dir : str or Path, optional
+        Directory for cached road segments (defaults to data/roads)
 
     Returns
     -------
@@ -176,10 +198,10 @@ def get_roads_for_city(
         )
 
     config = CITY_CONFIGS[city_key]
-    roads_dir = DATA_DIR / "roads"
-    roads_dir.mkdir(parents=True, exist_ok=True)
+    roads_path_dir = Path(roads_dir) if roads_dir is not None else DATA_DIR / "roads"
+    roads_path_dir.mkdir(parents=True, exist_ok=True)
 
-    roads_path = roads_dir / f"{city_key}_roads.csv"
+    roads_path = roads_path_dir / f"{city_key}_roads.csv"
 
     if roads_path.exists() and not force_download:
         print(f"Using existing roads data: {roads_path}")
@@ -204,6 +226,7 @@ def sample_city(
     n_samples: int | None = None,
     seed: int | None = None,
     force_download: bool = False,
+    roads_dir: str | Path | None = None,
 ) -> pd.DataFrame:
     """
     Sample road locations from a city.
@@ -211,13 +234,15 @@ def sample_city(
     Parameters
     ----------
     city : str
-        City name: 'mumbai', 'delhi', or 'navi_mumbai'
+        City name: 'mumbai', 'delhi', 'navi_mumbai', or 'hcmc'
     n_samples : int, optional
         Number of samples. Uses city default if not specified.
     seed : int, optional
         Random seed for reproducibility.
     force_download : bool
         Re-download road data even if it exists
+    roads_dir : str or Path, optional
+        Directory for cached road segments
 
     Returns
     -------
@@ -233,7 +258,9 @@ def sample_city(
     config = CITY_CONFIGS[city_key]
     n = n_samples or config.default_samples
 
-    roads_df = get_roads_for_city(city, force_download=force_download)
+    roads_df = get_roads_for_city(
+        city, force_download=force_download, roads_dir=roads_dir
+    )
 
     if len(roads_df) < n:
         print(
@@ -249,18 +276,88 @@ def sample_city(
     sampled = sampled.copy()
     sampled["city"] = config.name
 
-    return sampled[
-        ["lat", "lon", "city", "segment_id", "osm_name", "osm_type"]
-    ].reset_index(drop=True)
+    # Older caches lack length_m; attach_edge_lengths backfills it.
+    columns = ["lat", "lon", "city", "segment_id", "osm_name", "osm_type"]
+    if "length_m" in sampled.columns:
+        columns.append("length_m")
+    return sampled[columns].reset_index(drop=True)
+
+
+def _fetch_ways_by_id(osm_ids: list[int]) -> list[dict]:
+    """Fetch full geometry for OSM ways, shaped as _segment_roads expects."""
+    ids = ",".join(str(int(i)) for i in sorted(set(osm_ids)))
+    query = f"[out:json][timeout:180];way(id:{ids});out geom;"
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "application/json",
+    }
+    response = requests.post(
+        OVERPASS_URL, data={"data": query}, headers=headers, timeout=300
+    )
+    response.raise_for_status()
+    return [
+        {
+            "osm_id": way["id"],
+            "name": way.get("tags", {}).get("name", ""),
+            "highway": way.get("tags", {}).get("highway", ""),
+            "coords": [(node["lat"], node["lon"]) for node in way.get("geometry", [])],
+        }
+        for way in response.json()["elements"]
+        if way["type"] == "way"
+    ]
+
+
+def attach_edge_lengths(
+    samples: pd.DataFrame,
+    roads: pd.DataFrame,
+    tolerance_m: float = 0.5,
+) -> pd.DataFrame:
+    """
+    Add `length_m`, the length of road each sampled point stands for.
+
+    Every segment is drawn with equal probability, but segments are OSM node-to-node
+    edges (median ~20 m), so short edges are over-represented per km of road.
+    Weighting by `length_m` turns a segment average into a road-length average.
+
+    Lengths are recovered by re-fetching each sampled way and re-running the same
+    segmentation; a sampled point matches the candidate midpoint within `tolerance_m`.
+    Points whose way was edited in OSM since sampling get NaN.
+    """
+    with_ids = samples.merge(
+        roads[["segment_id", "osm_id"]], on="segment_id", how="left"
+    )
+    candidates = pd.DataFrame(
+        _segment_roads(_fetch_ways_by_id(with_ids["osm_id"].tolist()))
+    )
+    by_way = {osm_id: group for osm_id, group in candidates.groupby("osm_id")}
+
+    lengths = []
+    for _, row in with_ids.iterrows():
+        group = by_way.get(row["osm_id"])
+        if group is None:
+            lengths.append(np.nan)
+            continue
+        dy = (group["lat"] - row["lat"]) * 111_320.0
+        dx = (group["lon"] - row["lon"]) * 111_320.0 * np.cos(np.radians(row["lat"]))
+        dist = np.hypot(dx, dy)
+        best = dist.idxmin()
+        lengths.append(
+            group.loc[best, "length_m"] if dist[best] <= tolerance_m else np.nan
+        )
+
+    out = samples.copy()
+    out["length_m"] = np.round(lengths, 2)
+    return out
 
 
 def sample_all_cities(
     n_samples: dict[str, int] | None = None,
     seed: int | None = None,
     force_download: bool = False,
+    cities: list[str] | None = None,
 ) -> pd.DataFrame:
     """
-    Sample from all configured cities.
+    Sample from configured cities.
 
     Parameters
     ----------
@@ -270,6 +367,8 @@ def sample_all_cities(
         Base random seed (incremented per city).
     force_download : bool
         Re-download road data even if it exists
+    cities : list[str], optional
+        City keys to sample. Defaults to n_samples keys or India cities.
 
     Returns
     -------
@@ -277,9 +376,12 @@ def sample_all_cities(
         Combined DataFrame with all samples.
     """
     n_samples = n_samples or {}
+    target_cities = cities or (
+        list(n_samples.keys()) if n_samples else ["mumbai", "delhi", "navi_mumbai"]
+    )
     dfs = []
 
-    for i, city in enumerate(CITY_CONFIGS.keys()):
+    for i, city in enumerate(target_cities):
         city_seed = seed + i if seed is not None else None
         n = n_samples.get(city)
         df = sample_city(
@@ -298,6 +400,7 @@ CITY_COLORS = {
     "Mumbai": "#e41a1c",
     "Delhi": "#377eb8",
     "Navi Mumbai": "#4daf4a",
+    "Ho Chi Minh City": "#984ea3",
 }
 
 

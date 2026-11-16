@@ -1,0 +1,27 @@
+location_id,lat,lon,city,segment_id,osm_name,osm_type,length_m,has_coverage,capture_date,collection_day,stop_order,step_distance_m,time_window
+hcmc_00871,10.876418,106.60599765,Ho Chi Minh City,7910,Đường 04 Ấp Mới 1,residential,2.54,True,2026-04,2,1,0.0,15:30-18:30
+hcmc_00297,10.87005505,106.60422345,Ho Chi Minh City,183664,,residential,2.38,True,2024-06,2,2,733.6,15:30-18:30
+hcmc_02022,10.86938795,106.6047544,Ho Chi Minh City,183660,,residential,15.59,True,2020-03,2,3,94.1,15:30-18:30
+hcmc_01167,10.8688563,106.6044558,Ho Chi Minh City,109404,,residential,20.03,True,2026-06,2,4,67.5,15:30-18:30
+hcmc_01797,10.86934185,106.6075667,Ho Chi Minh City,178871,,residential,2.63,True,2019-07,2,5,344.0,15:30-18:30
+hcmc_01785,10.87519755,106.6149559,Ho Chi Minh City,15742,,residential,23.19,True,2026-04,2,6,1036.8,15:30-18:30
+hcmc_01761,10.875664,106.62795975,Ho Chi Minh City,121555,Đường D1 (Hoa Phượng),residential,61.78,True,2024-06,2,7,1420.9,15:30-18:30
+hcmc_00834,10.8594091,106.62510025,Ho Chi Minh City,1635,Tân Chánh Hiệp 34,residential,2.14,True,2026-05,2,8,1834.2,15:30-18:30
+hcmc_02101,10.859174,106.62584795,Ho Chi Minh City,1643,Tân Chánh Hiệp 34,residential,8.27,True,2019-09,2,9,85.7,15:30-18:30
+hcmc_02146,10.8564079,106.62557875,Ho Chi Minh City,156275,,residential,42.88,True,2018-08,2,10,309.0,15:30-18:30
+hcmc_00629,10.8549071,106.6246316,Ho Chi Minh City,34624,Đường Tô Ký,primary,51.43,True,2019-09,2,11,196.3,15:30-18:30
+hcmc_00445,10.85419885,106.62949185,Ho Chi Minh City,191213,,residential,1.26,True,2026-05,2,12,536.6,15:30-18:30
+hcmc_00403,10.8366687,106.6196486,Ho Chi Minh City,89770,Đông Hưng Thuận 39,residential,10.51,True,2019-07,2,13,2226.0,15:30-18:30
+hcmc_00838,10.8331084,106.61666705,Ho Chi Minh City,109136,,residential,24.61,True,2026-04,2,14,512.6,15:30-18:30
+hcmc_01668,10.83066165,106.61231185,Ho Chi Minh City,187528,Hẻm 255 Phan Văn Hớn,residential,2.04,True,2024-06,2,15,548.0,15:30-18:30
+hcmc_00324,10.8260648,106.61450575,Ho Chi Minh City,104743,Đường C,residential,12.31,True,2026-05,2,16,564.5,15:30-18:30
+hcmc_02243,10.82191465,106.6191465,Ho Chi Minh City,94256,,residential,137.15,True,2026-05,2,17,685.5,15:30-18:30
+hcmc_02460,10.84515465,106.60224065,Ho Chi Minh City,228081,,residential,27.1,True,2019-07,2,18,3176.0,15:30-18:30
+hcmc_01596,10.84217105,106.59864215,Ho Chi Minh City,10334,Tây Lân 7,residential,13.83,True,2019-07,2,19,514.3,15:30-18:30
+hcmc_00129,10.84596165,106.58918875,Ho Chi Minh City,57750,Đường Xuân Thới Thượng 58,residential,42.78,True,2026-06,2,20,1115.1,15:30-18:30
+hcmc_01366,10.8509593,106.5899117,Ho Chi Minh City,183749,,residential,15.06,True,2026-07,2,21,561.3,15:30-18:30
+hcmc_00152,10.8538929,106.59259085,Ho Chi Minh City,117368,,residential,35.37,True,2019-07,2,22,438.2,15:30-18:30
+hcmc_01001,10.85623265,106.59950055,Ho Chi Minh City,117477,,residential,2.33,False,,2,23,798.2,15:30-18:30
+hcmc_00996,10.87465385,106.58936395,Ho Chi Minh City,104827,,residential,17.95,True,2021-01,2,24,2328.3,15:30-18:30
+hcmc_00461,10.8362828,106.58878415,Ho Chi Minh City,107489,,residential,128.44,True,2019-06,2,25,4267.1,15:30-18:30
+hcmc_00035,10.83262205,106.58481885,Ho Chi Minh City,225720,,residential,1.3,True,2026-04,2,26,594.3,15:30-18:30

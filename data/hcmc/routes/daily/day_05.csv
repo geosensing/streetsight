@@ -1,0 +1,35 @@
+location_id,lat,lon,city,segment_id,osm_name,osm_type,length_m,has_coverage,capture_date,collection_day,stop_order,step_distance_m,time_window
+hcmc_02368,10.7782477,106.6717975,Ho Chi Minh City,214745,Hòa Hưng,residential,16.52,True,2019-04,5,1,0.0,15:30-18:30
+hcmc_00756,10.76837925,106.6627361,Ho Chi Minh City,73659,Nguyễn Ngọc Lộc,residential,16.73,True,2019-03,5,2,1477.8,15:30-18:30
+hcmc_01207,10.7671173,106.66429425,Ho Chi Minh City,47737,Hẻm 506/15 Đường 3 Tháng 2,residential,47.03,True,2026-03,5,3,220.6,15:30-18:30
+hcmc_02422,10.7633301,106.66372895,Ho Chi Minh City,27231,Nguyễn Lâm,residential,9.78,True,2026-03,5,4,425.6,15:30-18:30
+hcmc_00045,10.7632729,106.6617925,Ho Chi Minh City,1277,Nhật Tảo,residential,7.68,True,2022-08,5,5,211.6,15:30-18:30
+hcmc_02152,10.7609421,106.6651901,Ho Chi Minh City,160168,Ngô Quyền,tertiary,26.44,True,2019-04,5,6,452.7,15:30-18:30
+hcmc_00484,10.7646779,106.67070285,Ho Chi Minh City,14355,Hẻm 193 Bà Hạt,residential,19.36,True,2026-04,5,7,731.6,15:30-18:30
+hcmc_02497,10.75956,106.67931815,Ho Chi Minh City,219929,An Dương Vương,secondary,14.88,True,2019-04,5,8,1099.8,15:30-18:30
+hcmc_00392,10.75571965,106.6777438,Ho Chi Minh City,199812,Đường Phan Văn Trị,residential,1.3,True,2019-04,5,9,460.4,15:30-18:30
+hcmc_02310,10.75622495,106.6842983,Ho Chi Minh City,213400,Trần Hưng Đạo,primary,107.19,True,2015-03,5,10,718.2,15:30-18:30
+hcmc_02365,10.7579947,106.68674815,Ho Chi Minh City,73009,Trần Hưng Đạo,primary,18.44,True,2019-01,5,11,332.2,15:30-18:30
+hcmc_02067,10.7656128,106.6814916,Ho Chi Minh City,69934,Công trường Cộng Hòa,primary,3.07,True,2018-11,5,12,1023.4,15:30-18:30
+hcmc_02075,10.7515524,106.67115785,Ho Chi Minh City,12091,Đường Nguyễn Văn Đừng,residential,6.95,True,2019-04,5,13,1928.4,15:30-18:30
+hcmc_00812,10.7415894,106.668937,Ho Chi Minh City,225851,Cầu Chánh Hưng,primary,12.23,True,2023-08,5,14,1134.1,15:30-18:30
+hcmc_01935,10.73621155,106.671753,Ho Chi Minh City,88669,Phạm Hùng,primary,16.09,True,2023-08,5,15,672.5,15:30-18:30
+hcmc_01015,10.73592035,106.68008055,Ho Chi Minh City,22728,Cao Lỗ,tertiary,12.96,True,2026-03,5,16,910.3,15:30-18:30
+hcmc_01991,10.7275987,106.6808021,Ho Chi Minh City,95445,,residential,8.6,True,2021-01,5,17,928.7,15:30-18:30
+hcmc_01460,10.72622455,106.67132455,Ho Chi Minh City,98732,,residential,21.91,True,2020-12,5,18,1046.7,15:30-18:30
+hcmc_01487,10.7192058,106.66316805,Ho Chi Minh City,155078,Đường Số 1,tertiary,8.39,True,2019-05,5,19,1184.6,15:30-18:30
+hcmc_01801,10.71539815,106.66215785,Ho Chi Minh City,157316,,residential,18.61,True,2020-03,5,20,437.5,15:30-18:30
+hcmc_01537,10.71864705,106.65397175,Ho Chi Minh City,110255,,residential,27.57,True,2021-01,5,21,964.6,15:30-18:30
+hcmc_00835,10.73311925,106.65707995,Ho Chi Minh City,41079,Hẻm 399 đường Liên tỉnh 5,residential,18.13,True,2026-03,5,22,1644.7,15:30-18:30
+hcmc_01946,10.735849900000002,106.6571717,Ho Chi Minh City,119102,Hẻm 227/18 đường Liên tỉnh 5,residential,16.52,True,2020-03,5,23,303.8,15:30-18:30
+hcmc_01885,10.73853605,106.6475969,Ho Chi Minh City,93313,Hẻm 100H Hoài Thanh,residential,2.29,True,2020-12,5,24,1087.8,15:30-18:30
+hcmc_00211,10.7387305,106.64718125,Ho Chi Minh City,93282,Hẻm 106H Hoài Thanh,residential,21.17,True,2020-12,5,25,50.3,15:30-18:30
+hcmc_02476,10.7388714,106.64324405,Ho Chi Minh City,166698,Cầu Kênh Ngang số 2,tertiary,149.46,True,2019-05,5,26,430.4,15:30-18:30
+hcmc_02291,10.74965105,106.64864515,Ho Chi Minh City,161671,Hậu Giang,secondary,14.32,True,2023-09,5,27,1336.0,15:30-18:30
+hcmc_01585,10.7492569,106.6503335,Ho Chi Minh City,2102,Lê Tấn Kế,residential,98.94,True,2026-03,5,28,189.6,15:30-18:30
+hcmc_00532,10.74593285,106.66012305,Ho Chi Minh City,11886,Đường Phong Phú,residential,6.78,True,2019-05,5,29,1131.5,15:30-18:30
+hcmc_00631,10.74571685,106.66128405,Ho Chi Minh City,39183,Xóm Củi,secondary,18.58,True,2026-03,5,30,129.1,15:30-18:30
+hcmc_01685,10.7620854,106.65714395,Ho Chi Minh City,5693,Lê Đại Hành,secondary,9.28,True,2026-03,5,31,1875.5,15:30-18:30
+hcmc_00352,10.7687457,106.64571925,Ho Chi Minh City,10186,Hẻm 416 Lạc Long Quân,residential,10.95,True,2020-03,5,32,1451.2,15:30-18:30
+hcmc_01853,10.73916515,106.6904164,Ho Chi Minh City,203021,Đường số 4,secondary,20.03,True,2026-03,5,33,5887.3,15:30-18:30
+hcmc_00649,10.74521605,106.6957607,Ho Chi Minh City,90560,Đường Ngô Thị Bì,tertiary,13.11,True,2026-03,5,34,890.8,15:30-18:30

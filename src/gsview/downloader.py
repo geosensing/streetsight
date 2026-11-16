@@ -31,7 +31,8 @@ def check_coverage_batch(
     Returns
     -------
     pd.DataFrame
-        Input DataFrame with added columns: has_coverage, pano_id, capture_date, status
+        Input DataFrame with coverage metadata, returned panorama coordinates, and
+        query-to-panorama snap distance.
     """
     client = StreetViewClient(api_key=api_key, rate_limit=rate_limit)
     results = []
@@ -49,6 +50,9 @@ def check_coverage_batch(
                 "has_coverage": result.has_coverage,
                 "pano_id": result.pano_id,
                 "capture_date": result.capture_date,
+                "pano_lat": result.pano_lat,
+                "pano_lon": result.pano_lon,
+                "snap_distance_m": result.snap_distance_m,
                 "status": result.status,
             }
         )
@@ -133,6 +137,9 @@ def download_images_batch(
                     )
                 continue
 
+        pano_id = row.get("pano_id")
+        if pd.isna(pano_id):
+            pano_id = None
         results = client.download_location_images(
             lat=row["lat"],
             lon=row["lon"],
@@ -140,6 +147,7 @@ def download_images_batch(
             output_dir=output_dir,
             headings=headings,
             pitch=pitch,
+            pano_id=pano_id,
         )
 
         for result in results:

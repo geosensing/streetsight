@@ -16,13 +16,12 @@ from .sampling import plot_samples, sample_all_cities, sample_city
 @click.group()
 def main():
     """Google Street View sampling and download tool."""
-    pass
 
 
 @main.command()
 @click.option(
     "--city",
-    type=click.Choice(["mumbai", "delhi", "navi_mumbai", "all"]),
+    type=click.Choice(["mumbai", "delhi", "navi_mumbai", "hcmc", "all"]),
     default="all",
 )
 @click.option(

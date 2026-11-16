@@ -3,6 +3,7 @@
 import os
 import time
 from dataclasses import dataclass
+from math import asin, cos, radians, sin, sqrt
 from pathlib import Path
 
 import requests
@@ -15,6 +16,15 @@ load_dotenv()
 METADATA_URL = "https://maps.googleapis.com/maps/api/streetview/metadata"
 IMAGE_URL = "https://maps.googleapis.com/maps/api/streetview"
 
+# Metadata statuses that answer the coverage question. The rest (REQUEST_DENIED,
+# OVER_QUERY_LIMIT, INVALID_REQUEST, UNKNOWN_ERROR) are request failures.
+# https://developers.google.com/maps/documentation/streetview/metadata
+NO_ERROR_STATUSES = {"OK", "ZERO_RESULTS", "NOT_FOUND"}
+
+
+class StreetViewAPIError(RuntimeError):
+    """Raised when the Street View API rejects or fails a request."""
+
 
 @dataclass
 class CoverageResult:
@@ -25,6 +35,9 @@ class CoverageResult:
     has_coverage: bool
     pano_id: str | None = None
     capture_date: str | None = None
+    pano_lat: float | None = None
+    pano_lon: float | None = None
+    snap_distance_m: float | None = None
     status: str = "OK"
 
 
@@ -106,7 +119,21 @@ class StreetViewClient:
         data = response.json()
 
         status = data.get("status", "UNKNOWN")
+        if status not in NO_ERROR_STATUSES:
+            # Key, quota, or server failures say nothing about coverage; recording them
+            # as has_coverage=False silently produced an all-uncovered sample before.
+            raise StreetViewAPIError(
+                f"{status}: {data.get('error_message', '')}".strip()
+            )
         has_coverage = status == "OK"
+        location = data.get("location") or {}
+        pano_lat = location.get("lat")
+        pano_lon = location.get("lng")
+        snap_distance = (
+            haversine_m(lat, lon, pano_lat, pano_lon)
+            if pano_lat is not None and pano_lon is not None
+            else None
+        )
 
         return CoverageResult(
             lat=lat,
@@ -114,6 +141,9 @@ class StreetViewClient:
             has_coverage=has_coverage,
             pano_id=data.get("pano_id"),
             capture_date=data.get("date"),
+            pano_lat=pano_lat,
+            pano_lon=pano_lon,
+            snap_distance_m=snap_distance,
             status=status,
         )
 
@@ -126,6 +156,7 @@ class StreetViewClient:
         pitch: int = 0,
         fov: int = 90,
         size: str = "640x640",
+        pano_id: str | None = None,
     ) -> ImageResult:
         """
         Download a Street View image.
@@ -157,13 +188,16 @@ class StreetViewClient:
         self._wait_for_rate_limit()
 
         params = {
-            "location": f"{lat},{lon}",
             "heading": heading,
             "pitch": pitch,
             "fov": fov,
             "size": size,
             "key": self.api_key,
         }
+        if pano_id:
+            params["pano"] = pano_id
+        else:
+            params["location"] = f"{lat},{lon}"
 
         try:
             response = requests.get(IMAGE_URL, params=params, timeout=60)
@@ -213,6 +247,7 @@ class StreetViewClient:
         output_dir: str | Path,
         headings: list[int] | None = None,
         pitch: int = 0,
+        pano_id: str | None = None,
     ) -> list[ImageResult]:
         """
         Download images for a location at multiple headings.
@@ -250,10 +285,20 @@ class StreetViewClient:
                 heading=heading,
                 output_path=output_path,
                 pitch=pitch,
+                pano_id=pano_id,
             )
             results.append(result)
 
         return results
+
+
+def haversine_m(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+    """Great-circle distance in meters between two latitude/longitude points."""
+    phi1, phi2 = radians(lat1), radians(lat2)
+    dphi = radians(lat2 - lat1)
+    dlambda = radians(lon2 - lon1)
+    a = sin(dphi / 2) ** 2 + cos(phi1) * cos(phi2) * sin(dlambda / 2) ** 2
+    return 2 * 6_371_000 * asin(sqrt(a))
 
 
 def download_panorama_hires(
@@ -330,7 +375,7 @@ def download_panorama_hires(
             image_path=str(output_path),
         )
 
-    except Exception as e:
+    except Exception as e:  # noqa: BLE001
         return ImageResult(
             lat=0.0,
             lon=0.0,
@@ -469,7 +514,7 @@ def download_location_hires(
                 )
             return results
 
-    except Exception as e:
+    except Exception as e:  # noqa: BLE001
         for heading in headings:
             results.append(
                 ImageResult(
@@ -502,7 +547,7 @@ def download_location_hires(
                     image_path=str(output_path),
                 )
             )
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001
             results.append(
                 ImageResult(
                     lat=pano.lat,
