@@ -95,3 +95,19 @@ def test_attach_edge_lengths_matches_segment_midpoints(monkeypatch):
     out = attach_edge_lengths(samples, pieces[["segment_id", "osm_id"]])
     assert list(out["length_m"].round(-1)[:4]) == [100, 550, 550, 550]
     assert out["length_m"].isna().iloc[4]
+
+
+def test_route_map_escapes_osm_names(tmp_path: Path):
+    points = pd.DataFrame(
+        {
+            "location_id": ["a", "b"],
+            "lat": [10.70, 10.71],
+            "lon": [106.60, 106.61],
+            "osm_type": ["residential", "residential"],
+            "osm_name": ["<img src=x onerror=alert(1)>", "Lê Lợi"],
+        }
+    )
+    routes = assign_daily_routes(points, n_days=1)
+    text = plot_daily_routes(routes, tmp_path / "m.html").read_text(encoding="utf-8")
+    assert "<img src=x" not in text
+    assert "&lt;img src=x" in text

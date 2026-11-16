@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import html
 import xml.etree.ElementTree as ET
 from math import atan2, cos, radians, sin, sqrt
 from pathlib import Path
@@ -200,7 +201,8 @@ def plot_daily_routes(routes: pd.DataFrame, output_path: str | Path) -> Path:
             osm_name = row.get("osm_name", "")
             gsv = row.get("has_coverage", None)
             gsv_str = f" | GSV={gsv}" if pd.notna(gsv) else ""
-            popup = (
+            # Folium inserts popup text as raw HTML; OSM names are user-editable.
+            popup = html.escape(
                 f"Day {int(day):02d} Stop {int(row['stop_order'])} | "
                 f"{loc_id} | {osm_type} {osm_name}{gsv_str}"
             )
